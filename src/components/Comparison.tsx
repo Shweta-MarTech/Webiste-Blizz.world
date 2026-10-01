@@ -37,7 +37,7 @@ export function Comparison() {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-sm font-medium text-orange-600 mb-2 tracking-widest uppercase">Compare</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-            See how LevelUpCRM stacks up
+            See how Blizz stacks up
           </h2>
           <p className="mt-4 text-slate-500 text-lg">
             Built for Indian teams. Priced for Indian businesses.
@@ -52,7 +52,7 @@ export function Comparison() {
                   Feature
                 </th>
                 <th className="text-center py-3 px-4 font-semibold text-orange-600">
-                  LevelUpCRM
+                  Blizz
                 </th>
                 <th className="text-center py-3 px-4 font-medium text-slate-400">
                   Zoho CRM
@@ -95,7 +95,7 @@ export function Comparison() {
             href="#cta"
             className="inline-flex items-center justify-center h-11 px-6 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold hover:from-orange-600 hover:to-red-600 transition-all glow-orange-sm"
           >
-            Switch to LevelUpCRM — Free
+            Switch to Blizz — Free
           </a>
         </div>
       </div>

@@ -62,7 +62,7 @@ export function Features() {
             Everything you need to sell more, built in
           </h2>
           <p className="mt-4 text-slate-500 text-lg">
-            No plugins to install, no consultants to hire. LevelUpCRM works out
+            No plugins to install, no consultants to hire. Blizz works out
             of the box for Indian sales teams.
           </p>
         </div>

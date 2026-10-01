@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LevelUpCRM — The CRM Indian Businesses Actually Finish Setting Up",
+  title: "Blizz — The CRM Small Businesses Finish Setting Up Fast",
   description:
     "WhatsApp-native CRM built for Indian small businesses. Manage leads, automate follow-ups, close deals faster. Free for 2 users.",
   keywords: [
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
     "travel agency CRM",
     "real estate CRM India",
     "lead management software",
-    "LevelUpCRM",
+    "Blizz",
   ],
   openGraph: {
-    title: "LevelUpCRM — WhatsApp-Native CRM for Indian Businesses",
+    title: "Blizz — WhatsApp-Native CRM for Indian Businesses",
     description:
       "Manage leads, automate follow-ups, close deals faster. Built for how Indian teams actually sell.",
-    url: "https://levelupcrm.io",
-    siteName: "LevelUpCRM",
+    url: "https://blizz.world",
+    siteName: "Blizz",
     type: "website",
   },
 };

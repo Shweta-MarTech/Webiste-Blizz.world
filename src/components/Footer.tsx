@@ -6,14 +6,14 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-7 h-7 rounded-md bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
-                <span className="text-white font-bold text-xs">L</span>
+                <span className="text-white font-bold text-xs">B</span>
               </div>
               <span className="font-semibold text-white">
-                LevelUp<span className="text-orange-400">CRM</span>
+                Blizz
               </span>
             </div>
             <p className="text-sm leading-relaxed">
-              The CRM Indian businesses actually finish setting up. WhatsApp-native, simple, affordable.
+              The CRM small businesses finish setting up fast. WhatsApp-native, simple, affordable.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
-          <p>&copy; 2026 LevelUpCRM. All rights reserved.</p>
+          <p>&copy; 2026 Blizz. All rights reserved.</p>
           <p>Made with ❤️ in India for Indian businesses</p>
         </div>
       </div>

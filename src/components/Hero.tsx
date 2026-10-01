@@ -16,7 +16,7 @@ export function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-orange-200 bg-orange-50 text-orange-700 text-xs font-medium mb-6">
             <MessageCircle size={14} />
-            WhatsApp-Native CRM for Indian Businesses
+            Specially designed for Small Scale Businesses
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
@@ -28,7 +28,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-slate-500 max-w-2xl leading-relaxed">
-            The CRM Indian businesses actually finish setting up. Manage leads,
+            The CRM small businesses finish setting up fast. Manage leads,
             automate WhatsApp follow-ups, and track your sales pipeline — all in
             one place your team will love using.
           </p>
@@ -71,7 +71,7 @@ export function Hero() {
             <div className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
             <div className="w-2.5 h-2.5 rounded-full bg-green-400" />
             <span className="ml-3 text-xs text-slate-400">
-              levelupcrm.io/dashboard
+              blizz.world/dashboard
             </span>
           </div>
           <div className="p-6 sm:p-8 bg-gradient-to-br from-orange-50/30 to-white">

@@ -18,10 +18,10 @@ export function Navbar() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/20">
-            <span className="text-white font-bold text-sm">L</span>
+            <span className="text-white font-bold text-sm">B</span>
           </div>
           <span className="font-semibold text-lg text-slate-900">
-            LevelUp<span className="text-orange-600">CRM</span>
+            Blizz
           </span>
         </a>
 

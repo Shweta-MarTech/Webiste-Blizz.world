@@ -17,7 +17,7 @@ export function WhatsAppSection() {
               </span>
             </h2>
             <p className="mt-4 text-slate-500 text-lg">
-              85% of Indian businesses close deals on WhatsApp. LevelUpCRM is
+              85% of Indian businesses close deals on WhatsApp. Blizz is
               the only CRM where WhatsApp isn&apos;t an add-on — it&apos;s the
               core.
             </p>

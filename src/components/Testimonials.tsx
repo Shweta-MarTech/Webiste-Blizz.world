@@ -4,13 +4,13 @@ const testimonials = [
   {
     name: "Kashish Sethi",
     role: "Founder, ReadyMyTrip",
-    text: "We were managing 1,200+ leads across WhatsApp and spreadsheets. LevelUpCRM brought everything into one dashboard. Our follow-up response time dropped from 2 days to 4 hours.",
+    text: "We were managing 1,200+ leads across WhatsApp and spreadsheets. Blizz brought everything into one dashboard. Our follow-up response time dropped from 2 days to 4 hours.",
     metric: "25% faster lead response",
   },
   {
     name: "Priya Mehta",
     role: "Sales Head, TravelWings",
-    text: "We tried Zoho — my team gave up in 3 days. LevelUpCRM was set up in one afternoon. The WhatsApp integration alone is worth it. Our agents actually use it every day.",
+    text: "We tried Zoho — my team gave up in 3 days. Blizz was set up in one afternoon. The WhatsApp integration alone is worth it. Our agents actually use it every day.",
     metric: "100% team adoption",
   },
   {
