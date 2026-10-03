@@ -5,10 +5,10 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Compare", href: "#compare" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Features", href: "/#features" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Compare", href: "/#compare" },
+  { label: "Testimonials", href: "/#testimonials" },
 ];
 
 export function Navbar() {
@@ -28,29 +28,29 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="text-sm text-slate-500 hover:text-orange-600 transition-colors"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="#pricing"
+          <Link
+            href="/#pricing"
             className="text-sm text-slate-500 hover:text-slate-900 transition-colors"
           >
             Log in
-          </a>
-          <a
-            href="#cta"
+          </Link>
+          <Link
+            href="/#cta"
             className="inline-flex items-center justify-center h-9 px-5 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold hover:from-orange-600 hover:to-red-600 transition-all glow-orange-sm"
           >
             Get a Demo
-          </a>
+          </Link>
         </div>
 
         <button
@@ -65,22 +65,22 @@ export function Navbar() {
       {open && (
         <div className="md:hidden bg-white border-t border-orange-100/50 px-4 pb-4">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="block py-2.5 text-sm text-slate-600 hover:text-orange-600"
               onClick={() => setOpen(false)}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
-          <a
-            href="#cta"
+          <Link
+            href="/#cta"
             className="mt-2 block text-center py-2.5 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold"
             onClick={() => setOpen(false)}
           >
             Get a Demo
-          </a>
+          </Link>
         </div>
       )}
     </header>
