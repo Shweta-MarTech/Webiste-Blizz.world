@@ -36,6 +36,7 @@ export function Hero() {
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <a
               href="#cta"
+              data-track="cta_click"
               className="inline-flex items-center justify-center h-12 px-7 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold hover:from-orange-600 hover:to-red-600 transition-all gap-2 glow-orange"
             >
               Start Free — No Card Needed

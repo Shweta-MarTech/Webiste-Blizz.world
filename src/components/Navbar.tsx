@@ -47,6 +47,7 @@ export function Navbar() {
           </Link>
           <Link
             href="/#cta"
+            data-track="cta_click"
             className="inline-flex items-center justify-center h-9 px-5 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold hover:from-orange-600 hover:to-red-600 transition-all glow-orange-sm"
           >
             Get a Demo
@@ -76,6 +77,7 @@ export function Navbar() {
           ))}
           <Link
             href="/#cta"
+            data-track="cta_click"
             className="mt-2 block text-center py-2.5 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold"
             onClick={() => setOpen(false)}
           >
