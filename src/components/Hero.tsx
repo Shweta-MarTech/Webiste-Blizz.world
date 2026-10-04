@@ -22,7 +22,7 @@ export function Hero() {
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
             <span className="text-slate-900">
-              The simple CRM for Indian small businesses
+              The simple CRM for small businesses
             </span>{" "}
             <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
               that sell on WhatsApp
