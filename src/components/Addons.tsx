@@ -9,7 +9,7 @@ import {
 const addons = [
   {
     icon: Target,
-    title: "LeadBooster add-on",
+    title: "LeadIncrease add-on",
     description: "Capture more leads",
     price: "₹499",
   },
@@ -27,7 +27,7 @@ const addons = [
   },
   {
     icon: Eye,
-    title: "Web Visitors add-on",
+    title: "Online Visitors add-on",
     description: "See who's browsing your site",
     price: "₹599",
   },
