@@ -100,6 +100,8 @@ export function Pricing() {
 
               <a
                 href="#cta"
+                data-track="cta_click"
+                data-track-label={`Pricing: ${plan.name}`}
                 className={`mt-6 block text-center py-2.5 rounded-lg text-sm font-semibold transition-all ${
                   plan.featured
                     ? "bg-white text-orange-600 hover:bg-orange-50 shadow-lg"

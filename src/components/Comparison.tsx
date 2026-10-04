@@ -3,7 +3,7 @@ import { Check, X, Minus } from "lucide-react";
 const rows = [
   {
     feature: "Price (10 users/year)",
-    us: "₹1,00,000",
+    us: "₹59,880",
     zoho: "₹1,40,000",
     hubspot: "₹10,25,000",
   },
@@ -88,11 +88,13 @@ export function Comparison() {
 
         <div className="mt-8 text-center">
           <p className="text-slate-400 text-sm mb-4">
-            Save over ₹40,000/year compared to Zoho. Over ₹9,25,000/year
+            Save over ₹80,000/year compared to Zoho. Over ₹9,60,000/year
             compared to HubSpot.
           </p>
           <a
             href="#cta"
+            data-track="cta_click"
+            data-track-label="Compare: Switch to Blizz"
             className="inline-flex items-center justify-center h-11 px-6 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white text-sm font-semibold hover:from-orange-600 hover:to-red-600 transition-all glow-orange-sm"
           >
             Switch to Blizz — Free
