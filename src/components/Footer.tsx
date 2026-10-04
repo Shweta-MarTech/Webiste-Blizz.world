@@ -37,6 +37,7 @@ export function Footer() {
               <li><a href="#" className="hover:text-orange-400 transition-colors">Real Estate</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors">Education</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors">Event Planning</a></li>
+              <li><Link href="/pharma-crm" className="hover:text-orange-400 transition-colors">Pharma &amp; Wellness</Link></li>
             </ul>
           </div>
 

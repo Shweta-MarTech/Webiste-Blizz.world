@@ -16,6 +16,7 @@ const BUSINESS_TYPES = [
   "Education consultancy",
   "Wedding & events",
   "Insurance / financial advisory",
+  "Pharma & wellness",
   "Other",
 ];
 
