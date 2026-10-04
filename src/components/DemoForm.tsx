@@ -47,7 +47,7 @@ function readAttribution(): Attribution {
 const inputClass =
   "w-full h-12 px-4 rounded-lg bg-white/10 border border-white/30 text-white text-sm placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-1 focus:ring-white backdrop-blur";
 
-export function DemoForm() {
+export function DemoForm({ defaultBusinessType = "" }: { defaultBusinessType?: string }) {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   useEffect(() => {
@@ -136,7 +136,7 @@ export function DemoForm() {
         id="demo-business"
         name="business_type"
         required
-        defaultValue=""
+        defaultValue={defaultBusinessType}
         className={`${inputClass} [&>option]:text-slate-900`}
       >
         <option value="" disabled>Business type</option>

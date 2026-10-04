@@ -33,7 +33,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white text-sm mb-3">Industries</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Travel Agencies</a></li>
+              <li><Link href="/travel-agency-crm" className="hover:text-orange-400 transition-colors">Travel Agencies</Link></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors">Real Estate</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors">Education</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors">Event Planning</a></li>
