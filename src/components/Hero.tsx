@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   ArrowRight,
   MessageCircle,
@@ -20,17 +21,27 @@ export function Hero() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
-            <span className="text-slate-900">Stop losing leads.</span>
-            <br />
+            <span className="text-slate-900">
+              The simple CRM for Indian small businesses
+            </span>{" "}
             <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
-              Start closing deals.
+              that sell on WhatsApp
             </span>
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-slate-500 max-w-2xl leading-relaxed">
-            The CRM small businesses finish setting up fast. Manage leads,
-            automate WhatsApp follow-ups, and track your sales pipeline — all in
-            one place your team will love using.
+            Blizz is the WhatsApp CRM small businesses in India finish setting
+            up fast. Capture every lead, automate WhatsApp follow-ups and track
+            your sales pipeline in one place your team will love using. Built
+            first for{" "}
+            <Link href="/travel-agency-crm" className="text-orange-600 font-medium hover:underline">
+              travel agencies
+            </Link>
+            , and now used by{" "}
+            <Link href="/pharma-crm" className="text-orange-600 font-medium hover:underline">
+              pharma and wellness
+            </Link>{" "}
+            teams too.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">

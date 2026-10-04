@@ -17,9 +17,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.blizz.world"),
   alternates: { canonical: "/" },
-  title: "Blizz — The CRM Small Businesses Finish Setting Up Fast",
+  title: "WhatsApp CRM for Small Businesses in India | Blizz",
   description:
-    "WhatsApp-native CRM built for Indian small businesses. Manage leads, automate follow-ups, close deals faster. Free for 2 users.",
+    "Blizz is a WhatsApp CRM for small businesses in India. Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
   keywords: [
     "CRM for small business India",
     "WhatsApp CRM",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "Blizz",
   ],
   openGraph: {
-    title: "Blizz — WhatsApp-Native CRM for Indian Businesses",
+    title: "Blizz — WhatsApp CRM for Small Businesses in India",
     description:
-      "Manage leads, automate follow-ups, close deals faster. Built for how Indian teams actually sell.",
+      "Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
     url: "/",
     siteName: "Blizz",
     type: "website",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blizz — WhatsApp-Native CRM for Indian Businesses",
+    title: "Blizz — WhatsApp CRM for Small Businesses in India",
     description:
-      "Manage leads, automate follow-ups, close deals faster. Free for 2 users.",
+      "Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
   },
 };
 
@@ -65,7 +65,7 @@ const jsonLd = {
       applicationSubCategory: "CRM",
       operatingSystem: "Web",
       description:
-        "WhatsApp-native CRM for Indian small businesses. Manage leads, automate follow-ups and close deals faster.",
+        "WhatsApp CRM for small businesses in India. Capture every lead, automate follow-ups and track your sales pipeline in one place.",
       publisher: { "@id": "https://www.blizz.world/#organization" },
       offers: [
         { "@type": "Offer", name: "Starter", price: "0", priceCurrency: "INR" },
