@@ -174,7 +174,8 @@ export function DemoForm() {
       )}
 
       <p className="sm:col-span-2 text-xs text-orange-100 text-center">
-        By submitting, you agree to be contacted about Blizz. See our{" "}
+        By submitting, you agree to be contacted about Blizz and to our{" "}
+        <Link href="/terms" className="underline">Terms</Link> and{" "}
         <Link href="/privacy" className="underline">Privacy Policy</Link>.
       </p>
     </form>

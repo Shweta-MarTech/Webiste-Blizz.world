@@ -8,11 +8,12 @@ export function CTA() {
 
       <div className="relative max-w-3xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">
-          Ready to level up your sales?
+          Ready to stop losing leads?
         </h2>
         <p className="mt-4 text-lg text-orange-100">
-          Join hundreds of Indian businesses managing their leads, follow-ups,
-          and deals in one WhatsApp-native CRM.
+          Book a free 15-minute demo. We&apos;ll show you how Blizz keeps your
+          leads, WhatsApp follow-ups and deals in one place, and help set it
+          up for your team.
         </p>
 
         <DemoForm />

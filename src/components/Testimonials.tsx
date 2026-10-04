@@ -1,23 +1,21 @@
-import { Star } from "lucide-react";
+import { ArrowUpRight, Star } from "lucide-react";
 
 const testimonials = [
   {
     name: "Kashish Sethi",
-    role: "Founder, ReadyMyTrip",
+    role: "Founder",
+    company: "ReadyMyTrip",
+    url: "https://readymytrip.com/",
     text: "We were managing 1,200+ leads across WhatsApp and spreadsheets. Blizz brought everything into one dashboard. Our follow-up response time dropped from 2 days to 4 hours.",
-    metric: "25% faster lead response",
+    metric: "Replies in 4 hrs, not 2 days",
   },
   {
-    name: "Priya Mehta",
-    role: "Sales Head, TravelWings",
-    text: "We tried Zoho — my team gave up in 3 days. Blizz was set up in one afternoon. The WhatsApp integration alone is worth it. Our agents actually use it every day.",
-    metric: "100% team adoption",
-  },
-  {
-    name: "Ajay Tanwar",
-    role: "Owner, Horizon Holidays",
-    text: "The GST invoicing feature saved us hours every week. We used to create invoices manually in Excel. Now it's one click from the booking screen and shared via WhatsApp.",
-    metric: "8 hours saved per week",
+    name: "Arun Bakshi",
+    role: "Founder",
+    company: "Hebe Wellness",
+    url: "https://hebe-wellness.com/",
+    text: "Most of our customer enquiries for our CBD oils come in on WhatsApp. With Blizz, every enquiry becomes a lead with a follow-up date, so nothing slips through the cracks. My team was using it from day one.",
+    metric: "Every enquiry followed up",
   },
 ];
 
@@ -30,11 +28,11 @@ export function Testimonials() {
             Testimonials
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-            Trusted by travel agencies across India
+            What our early customers say
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {testimonials.map((t) => (
             <div
               key={t.name}
@@ -58,7 +56,18 @@ export function Testimonials() {
                     <p className="font-semibold text-slate-900 text-sm">
                       {t.name}
                     </p>
-                    <p className="text-xs text-slate-400">{t.role}</p>
+                    <p className="text-xs text-slate-400">
+                      {t.role},{" "}
+                      <a
+                        href={t.url}
+                        target="_blank"
+                        rel="noopener"
+                        className="inline-flex items-center gap-0.5 text-slate-500 hover:text-orange-600 underline-offset-2 hover:underline transition-colors"
+                      >
+                        {t.company}
+                        <ArrowUpRight size={12} />
+                      </a>
+                    </p>
                   </div>
                   <span className="text-xs font-medium text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full border border-orange-100">
                     {t.metric}
