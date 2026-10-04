@@ -8,13 +8,18 @@ import { getConsent, onConsentChange } from "./CookieConsent";
 // Leave empty to disable GA4.
 const GA_ID = "G-J3EWK0CWDX";
 
+// Microsoft Clarity Project ID from clarity.microsoft.com → Settings → Overview.
+// Leave empty to disable Clarity.
+const CLARITY_ID = "ysfkeznmda";
+
 // Production only, so local testing doesn't pollute the reports
-const ACTIVE = Boolean(GA_ID) && process.env.NODE_ENV === "production";
+const ACTIVE = Boolean(GA_ID || CLARITY_ID) && process.env.NODE_ENV === "production";
 
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
     dataLayer?: unknown[];
+    clarity?: (...args: unknown[]) => void;
   }
 }
 
@@ -30,6 +35,8 @@ function setGaDisabled(disabled: boolean) {
 // Visitor withdrew consent: stop sending and remove GA cookies
 function revokeAnalytics() {
   setGaDisabled(true);
+  // Tells Clarity to stop and erase its cookies
+  window.clarity?.("consent", false);
   const domain = location.hostname.replace(/^www\./, "");
   document.cookie.split(";").forEach((c) => {
     const name = c.split("=")[0].trim();
@@ -42,7 +49,10 @@ function revokeAnalytics() {
 function subscribe(callback: () => void) {
   return onConsentChange((value) => {
     if (value === "denied") revokeAnalytics();
-    else setGaDisabled(false);
+    else {
+      setGaDisabled(false);
+      window.clarity?.("consent");
+    }
     callback();
   });
 }
@@ -71,6 +81,22 @@ export function Analytics() {
 
   if (!granted) return null;
 
+  return (
+    <>
+      {GA_ID && <GoogleAnalytics />}
+      {CLARITY_ID && (
+        <Script id="clarity-init" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${CLARITY_ID}");
+window.clarity("consent");`}
+        </Script>
+      )}
+    </>
+  );
+}
+
+function GoogleAnalytics() {
   return (
     <>
       <Script
