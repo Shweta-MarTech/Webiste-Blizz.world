@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Marketing skills (coreyhaines31/marketingskills, MIT) - kept local; see .claude/skills/MARKETINGSKILLS-SOURCE.txt
+/.claude/skills/
