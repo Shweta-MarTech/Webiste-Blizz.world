@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Marketing skills (coreyhaines31/marketingskills, MIT) - kept local; see .claude/skills/MARKETINGSKILLS-SOURCE.txt
 /.claude/skills/
+
+# IndexNow page fingerprints (cached by the GitHub Action)
+/.indexnow-cache/
