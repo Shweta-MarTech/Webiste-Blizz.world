@@ -1,0 +1,47 @@
+# Blizz
+
+> Blizz is a simple, WhatsApp-first CRM for small businesses in India. It helps sales teams of 3–30 people capture every lead and enquiry, assign it to an owner, set follow-up dates and see the whole sales pipeline in one place. Free for 2 users; paid plans from ₹499 per user per month.
+
+Blizz is built in India for how small Indian teams actually sell: enquiries arrive on WhatsApp and phone calls, and teams have agents, team leaders and an owner. It was built first with ReadyMyTrip, a travel agency managing 1,200+ leads, and is also used by Hebe Wellness, a CBD and hemp wellness brand.
+
+## Key facts
+
+- Product: Blizz CRM (web app), https://www.blizz.world
+- Category: CRM / lead management software for small businesses
+- Market: India (prices in INR, GST extra)
+- Best for: travel agencies, pharma and wellness companies, real estate brokers, education consultants, event planners, insurance advisors — teams of about 3 to 30 people
+- Not for: large enterprises needing deep customisation, inventory/ERP or prescription management
+- Setup: done with the customer on a call; existing leads imported from Excel; teams can be running the same day
+- Data: role-based access (agents see their own leads, team leaders their team, owners everything); customers own and can export their data
+
+## Features
+
+- Lead management and sales pipeline with stages
+- Follow-up dates and overdue follow-up alerts
+- Owner dashboard: new leads, hot leads, overdue follow-ups, revenue, agent leaderboard
+- Agents, teams and team leaders, with role-based access and data scoping
+- Bulk import from Excel
+- Lost-lead tracking
+- Rolling out October 2026: WhatsApp Business API (two-way messaging), automated follow-ups, GST-compliant quotations and invoices
+
+## Pricing
+
+- Starter: Free — up to 2 users, 500 contacts
+- Pro: ₹499 per user per month — unlimited users and contacts
+- Business: ₹999 per user per month — custom fields and stages, API access, dedicated account manager
+- No setup fee, no annual lock-in. Full details: https://www.blizz.world/pricing.md
+- Example: 10 users on Pro = ₹59,880 per year (Zoho CRM Standard ≈ ₹1,40,000; HubSpot Professional ≈ ₹10,25,000 + ₹1,25,000 onboarding)
+
+## Pages
+
+- [Home](https://www.blizz.world/): overview, features, pricing, comparison with Zoho and HubSpot
+- [Travel agency CRM](https://www.blizz.world/travel-agency-crm): Blizz for travel agencies, with the ReadyMyTrip story
+- [Pharma & wellness CRM](https://www.blizz.world/pharma-crm): Blizz for pharma, Ayurvedic and wellness sales teams, with the Hebe Wellness story
+- [Pricing (plain text)](https://www.blizz.world/pricing.md)
+- [Privacy Policy](https://www.blizz.world/privacy)
+- [Terms of Service](https://www.blizz.world/terms)
+
+## Contact
+
+- Book a demo: https://www.blizz.world/#cta
+- Email: hello@blizz.world

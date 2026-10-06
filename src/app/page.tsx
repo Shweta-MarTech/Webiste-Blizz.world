@@ -7,6 +7,8 @@ import { Addons } from "@/components/Addons";
 import { Testimonials } from "@/components/Testimonials";
 import { Pricing } from "@/components/Pricing";
 import { Comparison } from "@/components/Comparison";
+import { Industries } from "@/components/Industries";
+import { HomeFAQ } from "@/components/HomeFAQ";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
 
@@ -19,10 +21,12 @@ export default function Home() {
         <Testimonials />
         <Problem />
         <Features />
+        <Industries />
         <Addons />
         <WhatsAppSection />
         <Pricing />
         <Comparison />
+        <HomeFAQ />
         <CTA />
       </main>
       <Footer />
