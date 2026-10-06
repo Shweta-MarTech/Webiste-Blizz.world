@@ -38,6 +38,13 @@ Blizz is built in India for how small teams in India and the GCC actually sell: 
 - [Travel agency CRM](https://www.blizz.world/travel-agency-crm): Blizz for travel agencies, with the ReadyMyTrip story
 - [Pharma & wellness CRM](https://www.blizz.world/pharma-crm): Blizz for pharma, Ayurvedic and wellness sales teams, with the Hebe Wellness story
 - [Pricing (plain text)](https://www.blizz.world/pricing.md)
+- [Blog](https://www.blizz.world/blog): CRM guides for small businesses in India and the GCC
+
+## Guides
+
+- [How to choose a CRM for your small business](https://www.blizz.world/blog/how-to-choose-a-crm-for-small-business)
+- [How to set up a CRM for your small business in one afternoon](https://www.blizz.world/blog/how-to-set-up-a-crm-for-small-business)
+- [How to get your sales team to actually use the CRM](https://www.blizz.world/blog/how-to-get-sales-team-to-use-crm)
 - [Privacy Policy](https://www.blizz.world/privacy)
 - [Terms of Service](https://www.blizz.world/terms)
 

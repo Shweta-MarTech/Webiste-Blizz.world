@@ -59,3 +59,76 @@ html {
 .animate-pulse-glow {
   animation: pulse-glow 3s ease-in-out infinite;
 }
+
+/* Blog article body (Markdown rendered by src/lib/blog.ts) */
+.blog-prose {
+  color: #475569;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+.blog-prose > * + * { margin-top: 1.25rem; }
+.blog-prose h2 {
+  margin-top: 3rem;
+  font-size: 1.625rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+.blog-prose h3 {
+  margin-top: 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #0f172a;
+}
+.blog-prose h2 + *, .blog-prose h3 + * { margin-top: 0.75rem; }
+.blog-prose strong { color: #0f172a; font-weight: 600; }
+.blog-prose a {
+  color: #ea580c;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.blog-prose a:hover { color: #c2410c; }
+.blog-prose ul, .blog-prose ol { padding-left: 1.4rem; }
+.blog-prose ul { list-style: disc; }
+.blog-prose ol { list-style: decimal; }
+.blog-prose li + li { margin-top: 0.5rem; }
+.blog-prose li::marker { color: #f97316; }
+.blog-prose li:has(> input[type="checkbox"]) { list-style: none; margin-left: -1.4rem; }
+.blog-prose input[type="checkbox"] {
+  margin-right: 0.6rem;
+  accent-color: #f97316;
+  transform: translateY(1px);
+}
+/* "Quick answer" opening paragraph */
+.blog-prose > p:first-child {
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #f97316;
+  background: #fff7ed;
+  border-radius: 0 0.75rem 0.75rem 0;
+  color: #334155;
+}
+.blog-prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+.blog-prose th, .blog-prose td {
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid #f1f5f9;
+  text-align: left;
+  vertical-align: top;
+}
+.blog-prose th {
+  background: #fff7ed;
+  color: #0f172a;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.blog-prose hr { border: 0; border-top: 1px solid #e2e8f0; margin: 2.5rem 0; }
+.blog-prose > p:last-child em { color: #64748b; font-size: 0.9375rem; }
