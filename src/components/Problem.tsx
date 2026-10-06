@@ -30,7 +30,7 @@ export function Problem() {
             The Problem
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-            Indian businesses deserve better than spreadsheets
+            Indian and GCC businesses deserve better than spreadsheets
           </h2>
           <p className="mt-4 text-slate-500 text-lg">
             90% of Indian SMBs quit their CRM in the first week. Not because

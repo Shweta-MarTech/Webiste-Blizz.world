@@ -1,14 +1,14 @@
 # Blizz
 
-> Blizz is a simple, WhatsApp-first CRM for small businesses in India. It helps sales teams of 3–30 people capture every lead and enquiry, assign it to an owner, set follow-up dates and see the whole sales pipeline in one place. Free for 2 users; paid plans from ₹499 per user per month.
+> Blizz is a simple, WhatsApp-first CRM for small businesses in India and the GCC. It helps sales teams of 3–30 people capture every lead and enquiry, assign it to an owner, set follow-up dates and see the whole sales pipeline in one place. Free for 2 users; paid plans from ₹499 per user per month.
 
-Blizz is built in India for how small Indian teams actually sell: enquiries arrive on WhatsApp and phone calls, and teams have agents, team leaders and an owner. It was built first with ReadyMyTrip, a travel agency managing 1,200+ leads, and is also used by Hebe Wellness, a CBD and hemp wellness brand.
+Blizz is built in India for how small teams in India and the GCC actually sell: enquiries arrive on WhatsApp and phone calls, and teams have agents, team leaders and an owner. It was built first with ReadyMyTrip, a travel agency managing 1,200+ leads, and is also used by Hebe Wellness, a CBD and hemp wellness brand.
 
 ## Key facts
 
 - Product: Blizz CRM (web app), https://www.blizz.world
 - Category: CRM / lead management software for small businesses
-- Market: India (prices in INR, GST extra)
+- Market: India and the GCC (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman); prices listed in INR, GST extra in India
 - Best for: travel agencies, pharma and wellness companies, real estate brokers, education consultants, event planners, insurance advisors — teams of about 3 to 30 people
 - Not for: large enterprises needing deep customisation, inventory/ERP or prescription management
 - Setup: done with the customer on a call; existing leads imported from Excel; teams can be running the same day

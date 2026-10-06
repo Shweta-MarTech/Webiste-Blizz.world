@@ -45,7 +45,7 @@ export default function OpengraphImage() {
             The CRM small businesses finish setting up fast
           </div>
           <div style={{ fontSize: 32, color: "#475569" }}>
-            WhatsApp-native · Built for Indian teams · Free for 2 users
+            WhatsApp-native · Built for India & GCC teams · Free for 2 users
           </div>
         </div>
 

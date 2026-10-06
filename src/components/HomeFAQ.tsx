@@ -1,7 +1,7 @@
 const faqs = [
   {
     q: "What is Blizz?",
-    a: "Blizz is a simple CRM for small businesses in India that sell on WhatsApp and phone. It puts every lead in one pipeline, gives it an owner and a follow-up date, and shows the owner what the whole team is doing. It's built for teams of about 3 to 30 people.",
+    a: "Blizz is a simple CRM for small businesses in India and the GCC that sell on WhatsApp and phone. It puts every lead in one pipeline, gives it an owner and a follow-up date, and shows the owner what the whole team is doing. It's built for teams of about 3 to 30 people.",
   },
   {
     q: "Who is Blizz for?",

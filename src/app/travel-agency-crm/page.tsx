@@ -16,9 +16,9 @@ import {
 import { IndustryPage, type IndustryPageContent } from "@/components/IndustryPage";
 
 export const metadata: Metadata = {
-  title: "Travel Agency CRM for India — Never Miss a Follow-up | Blizz",
+  title: "Travel Agency CRM for India & GCC | Blizz",
   description:
-    "Blizz is a CRM built with a real Indian travel agency. Put every trip enquiry in one pipeline, assign it to an agent and get alerts for overdue follow-ups. Free for 2 users.",
+    "A travel agency CRM for India and the GCC, built with a real travel agency. Every trip enquiry in one pipeline, with owners and overdue follow-up alerts.",
   alternates: { canonical: "/travel-agency-crm" },
   openGraph: {
     title: "Blizz — The travel agency CRM built with a real travel agency",
@@ -35,7 +35,7 @@ const content: IndustryPageContent = {
   businessType: "Travel agency",
   hero: {
     badgeIcon: Map,
-    badge: "CRM for travel agencies in India",
+    badge: "CRM for travel agencies in India & the GCC",
     titleLead: "The travel agency CRM that makes sure",
     titleHighlight: "every enquiry gets a follow-up",
     text: "Trip enquiries arrive on WhatsApp and calls, then sit in your agents' personal chats. Blizz puts every enquiry in one pipeline, gives it an owner and a follow-up date, and flags it the moment a follow-up is missed.",

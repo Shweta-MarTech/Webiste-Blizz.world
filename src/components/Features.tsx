@@ -63,7 +63,7 @@ export function Features() {
           </h2>
           <p className="mt-4 text-slate-500 text-lg">
             No plugins to install, no consultants to hire. Blizz works out
-            of the box for Indian sales teams.
+            of the box for Indian and GCC sales teams.
           </p>
         </div>
 

@@ -17,9 +17,9 @@ import {
 import { IndustryPage, type IndustryPageContent } from "@/components/IndustryPage";
 
 export const metadata: Metadata = {
-  title: "CRM for Pharma & Wellness Companies in India | Blizz",
+  title: "CRM for Pharma & Wellness Companies in India & GCC | Blizz",
   description:
-    "Blizz helps small pharma, Ayurvedic and wellness companies track every enquiry from doctors, chemists, distributors and customers, with follow-up dates, rep teams and overdue alerts. Free for 2 users.",
+    "CRM for pharma, Ayurvedic and wellness teams in India and the GCC. Track enquiries from doctors, chemists and distributors, with follow-up and reorder dates.",
   alternates: { canonical: "/pharma-crm" },
   openGraph: {
     title: "Blizz — CRM for pharma and wellness sales teams",
@@ -36,7 +36,7 @@ const content: IndustryPageContent = {
   businessType: "Pharma & wellness",
   hero: {
     badgeIcon: Pill,
-    badge: "CRM for pharma & wellness companies in India",
+    badge: "CRM for pharma & wellness companies in India & the GCC",
     titleLead: "The CRM for pharma and wellness teams that",
     titleHighlight: "follows up on every enquiry and reorder",
     text: "Enquiries from doctors, chemists, distributors and customers arrive on WhatsApp, calls and your website, then sit in your reps' phones. Blizz puts each one in a single pipeline with an owner and a next follow-up date, so samples get chased and repeat orders don't slip.",

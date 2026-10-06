@@ -57,7 +57,7 @@ export function Footer() {
             <p>&copy; 2026 Blizz. All rights reserved.</p>
             <CookieSettingsButton />
           </div>
-          <p>Made with ❤️ in India for Indian businesses</p>
+          <p>Made with ❤️ in India for businesses in India and the GCC</p>
         </div>
       </div>
     </footer>

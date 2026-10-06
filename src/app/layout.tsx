@@ -17,11 +17,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.blizz.world"),
   alternates: { canonical: "/" },
-  title: "WhatsApp CRM for Small Businesses in India | Blizz",
+  title: "WhatsApp CRM for Small Businesses in India & GCC | Blizz",
   description:
-    "Blizz is a WhatsApp CRM for small businesses in India. Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
+    "Blizz is a WhatsApp CRM for small businesses in India and the GCC. Capture every lead, automate follow-ups and track your pipeline. Free for 2 users.",
   keywords: [
     "CRM for small business India",
+    "CRM for small business UAE",
+    "WhatsApp CRM GCC",
     "WhatsApp CRM",
     "travel agency CRM",
     "real estate CRM India",
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
     "Blizz",
   ],
   openGraph: {
-    title: "Blizz — WhatsApp CRM for Small Businesses in India",
+    title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
     description:
       "Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
     url: "/",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blizz — WhatsApp CRM for Small Businesses in India",
+    title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
     description:
       "Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
   },
@@ -55,7 +57,7 @@ const jsonLd = {
       name: "Blizz",
       url: "https://www.blizz.world",
       email: "hello@blizz.world",
-      areaServed: "IN",
+      areaServed: ["IN", "AE", "SA", "QA", "KW", "BH", "OM"],
     },
     {
       "@type": "SoftwareApplication",
@@ -65,7 +67,7 @@ const jsonLd = {
       applicationSubCategory: "CRM",
       operatingSystem: "Web",
       description:
-        "WhatsApp CRM for small businesses in India. Capture every lead, automate follow-ups and track your sales pipeline in one place.",
+        "WhatsApp CRM for small businesses in India and the GCC. Capture every lead, automate follow-ups and track your sales pipeline in one place.",
       publisher: { "@id": "https://www.blizz.world/#organization" },
       offers: [
         { "@type": "Offer", name: "Starter", price: "0", priceCurrency: "INR" },

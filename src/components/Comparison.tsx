@@ -16,7 +16,7 @@ const rows = [
   { feature: "WhatsApp Native", us: true, zoho: false, hubspot: false },
   { feature: "Setup Time", us: "5 min", zoho: "1-2 weeks", hubspot: "2-4 weeks" },
   { feature: "GST Invoicing", us: true, zoho: "partial", hubspot: false },
-  { feature: "Indian Business Workflows", us: true, zoho: "partial", hubspot: false },
+  { feature: "India & GCC Business Workflows", us: true, zoho: "partial", hubspot: false },
   { feature: "Mobile Responsive", us: true, zoho: true, hubspot: true },
   { feature: "Team Hierarchy & RBAC", us: true, zoho: true, hubspot: "paid" },
   { feature: "Free Tier", us: "2 users", zoho: "3 users", hubspot: "2 users" },
@@ -40,7 +40,7 @@ export function Comparison() {
             See how Blizz stacks up
           </h2>
           <p className="mt-4 text-slate-500 text-lg">
-            Built for Indian teams. Priced for Indian businesses.
+            Built for Indian and GCC teams. Priced for small businesses.
           </p>
         </div>
 
