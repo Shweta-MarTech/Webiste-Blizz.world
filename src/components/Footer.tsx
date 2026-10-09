@@ -18,6 +18,9 @@ export function Footer() {
             <p className="text-sm leading-relaxed">
               The CRM small businesses finish setting up fast. WhatsApp-native, simple, affordable.
             </p>
+            <p className="mt-4 text-sm text-slate-300">
+              <span lang="sa">वसुधैव कुटुम्बकम्</span> · Every customer is family.
+            </p>
           </div>
 
           <div>
@@ -57,7 +60,7 @@ export function Footer() {
             <p>&copy; 2026 Blizz. All rights reserved.</p>
             <CookieSettingsButton />
           </div>
-          <p>Made with ❤️ in India for businesses in India and the GCC</p>
+          <p>Made with ❤️ in India for small businesses worldwide</p>
         </div>
       </div>
     </footer>
