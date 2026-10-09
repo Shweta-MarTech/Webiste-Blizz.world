@@ -4,7 +4,7 @@ const rows = [
   {
     feature: "Price (10 users/year)",
     us: "₹59,880",
-    zoho: "₹1,40,000",
+    zoho: "₹96,000",
     hubspot: "₹10,25,000",
   },
   {
@@ -13,7 +13,7 @@ const rows = [
     zoho: "₹0",
     hubspot: "₹1,25,000",
   },
-  { feature: "WhatsApp Native", us: true, zoho: false, hubspot: false },
+  { feature: "WhatsApp built in", us: true, zoho: true, hubspot: false },
   { feature: "Setup Time", us: "5 min", zoho: "1-2 weeks", hubspot: "2-4 weeks" },
   { feature: "GST Invoicing", us: true, zoho: "partial", hubspot: false },
   { feature: "India & GCC Business Workflows", us: true, zoho: "partial", hubspot: false },
@@ -88,7 +88,7 @@ export function Comparison() {
 
         <div className="mt-8 text-center">
           <p className="text-slate-400 text-sm mb-4">
-            Save over ₹80,000/year compared to Zoho. Over ₹9,60,000/year
+            Save over ₹36,000/year compared to Zoho Standard. Over ₹9,60,000/year
             compared to HubSpot.
           </p>
           <a

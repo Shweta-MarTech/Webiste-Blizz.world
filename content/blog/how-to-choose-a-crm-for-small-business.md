@@ -68,7 +68,7 @@ CRM pricing is usually per user per month, and the headline price rarely tells t
 - Add-ons you'll need (WhatsApp, automation, reports, extra contacts)
 - Price jumps when you move up a plan
 
-As an example of how much this varies, here are rough yearly costs for a 10-person team on a mid-tier plan: Zoho CRM Standard around ₹1,40,000, HubSpot Sales Professional around ₹10,25,000 plus about ₹1,25,000 in mandatory onboarding, and simpler small-business CRMs from around ₹60,000. Prices change, so always check current pricing pages, but the gap between options is often 10× or more.
+As an example of how much this varies, here are rough yearly costs for a 10-person team on a mid-tier plan: Zoho CRM Standard around ₹96,000 (₹800 per user per month, billed yearly), HubSpot Sales Professional around ₹10,25,000 plus about ₹1,25,000 in mandatory onboarding, and simpler small-business CRMs from around ₹60,000. Prices change, so always check current pricing pages, but the gap between options is often 10× or more.
 
 ### 4. Getting your existing data in
 

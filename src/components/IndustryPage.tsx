@@ -306,7 +306,7 @@ export function IndustryPage({ content: c }: { content: IndustryPageContent }) {
             <div className="grid sm:grid-cols-3 gap-4">
               {[
                 { name: "Blizz Pro", price: "₹59,880", note: "No setup fee", featured: true },
-                { name: "Zoho CRM Standard", price: "₹1,40,000", note: "WhatsApp needs an add-on", featured: false },
+                { name: "Zoho CRM Standard", price: "₹96,000", note: "₹800/user/month, billed yearly", featured: false },
                 { name: "HubSpot Professional", price: "₹10,25,000", note: "+ ₹1,25,000 onboarding", featured: false },
               ].map((p) => (
                 <div

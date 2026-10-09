@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "How much does Blizz cost?",
-    a: "Blizz is free for up to 2 users and 500 contacts. The Pro plan is ₹499 per user per month and Business is ₹999, plus GST. A team of 10 on Pro pays ₹59,880 a year, compared with about ₹1,40,000 for Zoho CRM Standard. There is no setup fee and no annual lock-in.",
+    a: "Blizz is free for up to 2 users and 500 contacts. The Pro plan is ₹499 per user per month and Business is ₹999, plus GST. A team of 10 on Pro pays ₹59,880 a year, compared with about ₹96,000 for Zoho CRM Standard on yearly billing. There is no setup fee and no annual lock-in.",
   },
   {
     q: "How is Blizz different from Zoho or HubSpot?",

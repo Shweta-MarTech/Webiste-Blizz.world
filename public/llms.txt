@@ -30,7 +30,7 @@ Blizz is built in India for how small teams in India and the GCC actually sell: 
 - Pro: ₹499 per user per month — unlimited users and contacts
 - Business: ₹999 per user per month — custom fields and stages, API access, dedicated account manager
 - No setup fee, no annual lock-in. Full details: https://www.blizz.world/pricing.md
-- Example: 10 users on Pro = ₹59,880 per year (Zoho CRM Standard ≈ ₹1,40,000; HubSpot Professional ≈ ₹10,25,000 + ₹1,25,000 onboarding)
+- Example: 10 users on Pro = ₹59,880 per year (Zoho CRM Standard ≈ ₹96,000 (₹800/user/month, billed yearly); HubSpot Professional ≈ ₹10,25,000 + ₹1,25,000 onboarding)
 
 ## Pages
 
