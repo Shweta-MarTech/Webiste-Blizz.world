@@ -11,7 +11,7 @@ const rows = [
     feature: "Setup / Onboarding Fee",
     us: "₹0",
     zoho: "₹0",
-    hubspot: "₹1,25,000",
+    hubspot: "₹1,40,000",
   },
   { feature: "WhatsApp built in", us: true, zoho: true, hubspot: false },
   { feature: "Setup Time", us: "5 min", zoho: "1-2 weeks", hubspot: "2-4 weeks" },

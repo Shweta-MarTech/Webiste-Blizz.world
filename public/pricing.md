@@ -28,6 +28,6 @@ All prices in Indian Rupees (INR), per user per month, billed monthly. GST extra
 | 5 users   | ₹2,495  | ₹29,940 |
 | 10 users  | ₹4,990  | ₹59,880 |
 
-For comparison, 10 users for a year: Zoho CRM Standard ≈ ₹96,000 (₹800/user/month, billed yearly); HubSpot Professional ≈ ₹10,25,000 plus ₹1,25,000 mandatory onboarding.
+For comparison, 10 users for a year: Zoho CRM Standard ≈ ₹96,000 (₹800/user/month, billed yearly); HubSpot Sales Hub Professional ≈ ₹10,25,000 ($90/seat/month billed yearly, charged in USD) plus ≈ ₹1,40,000 ($1,500) mandatory onboarding. USD figures converted at about ₹95 per dollar.
 
 Last updated: 2026-10-09 · https://www.blizz.world/#pricing · Questions: hello@blizz.world
