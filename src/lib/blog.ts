@@ -63,7 +63,7 @@ function toMeta(slug: string, data: Record<string, string>, body: string): PostM
   };
 }
 
-function readPost(slug: string) {
+export function readPost(slug: string) {
   return parseFrontmatter(readFileSync(path.join(BLOG_DIR, `${slug}.md`), "utf8"));
 }
 

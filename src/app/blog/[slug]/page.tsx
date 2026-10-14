@@ -126,6 +126,14 @@ export default async function BlogPostPage({
             </span>
             <span aria-hidden="true">·</span>
             <time dateTime={post.date}>{formatDate(post.date)}</time>
+            {post.updated !== post.date && (
+              <>
+                <span aria-hidden="true">·</span>
+                <span>
+                  Updated <time dateTime={post.updated}>{formatDate(post.updated)}</time>
+                </span>
+              </>
+            )}
             <span aria-hidden="true">·</span>
             <span className="inline-flex items-center gap-1">
               <Clock size={13} />
