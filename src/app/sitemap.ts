@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Every post in content/blog is listed automatically
   const posts = getAllPosts().map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: post.date,
+    lastModified: post.updated,
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));

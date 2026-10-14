@@ -47,6 +47,23 @@ export const metadata: Metadata = {
   },
 };
 
+function perUserOffer(name: string, price: string) {
+  return {
+    "@type": "Offer",
+    name,
+    price,
+    priceCurrency: "INR",
+    description: "Per user per month",
+    priceSpecification: {
+      "@type": "UnitPriceSpecification",
+      price,
+      priceCurrency: "INR",
+      unitText: "per user per month",
+      billingDuration: "P1M",
+    },
+  };
+}
+
 // Structured data so Google understands Blizz is a software product with plans
 const jsonLd = {
   "@context": "https://schema.org",
@@ -56,11 +73,23 @@ const jsonLd = {
       "@id": "https://www.blizz.world/#organization",
       name: "Blizz",
       url: "https://www.blizz.world",
+      logo: "https://www.blizz.world/logo.png",
       email: "hello@blizz.world",
+      founder: { "@type": "Person", name: "Shweta Bakshi", jobTitle: "Founder" },
       areaServed: ["IN", "AE", "SA", "QA", "KW", "BH", "OM"],
+      // Add sameAs: [LinkedIn, YouTube, ...] once the company profiles exist
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.blizz.world/#website",
+      name: "Blizz",
+      url: "https://www.blizz.world",
+      inLanguage: "en-IN",
+      publisher: { "@id": "https://www.blizz.world/#organization" },
     },
     {
       "@type": "SoftwareApplication",
+      "@id": "https://www.blizz.world/#software",
       name: "Blizz CRM",
       url: "https://www.blizz.world",
       applicationCategory: "BusinessApplication",
@@ -68,11 +97,20 @@ const jsonLd = {
       operatingSystem: "Web",
       description:
         "WhatsApp CRM for small businesses in India and the GCC. Capture every lead, automate follow-ups and track your sales pipeline in one place.",
+      // Built features only; add WhatsApp API, automations and GST invoices when they ship
+      featureList: [
+        "Lead management with pipeline stages",
+        "Follow-up scheduling with overdue alerts",
+        "Lost-lead tracking",
+        "Owner dashboard with hot leads and team leaderboard",
+        "Teams with role-based access (agent, team leader, admin)",
+        "Bulk import of leads from Excel or CSV",
+      ],
       publisher: { "@id": "https://www.blizz.world/#organization" },
       offers: [
-        { "@type": "Offer", name: "Starter", price: "0", priceCurrency: "INR" },
-        { "@type": "Offer", name: "Pro", price: "499", priceCurrency: "INR", description: "Per user per month" },
-        { "@type": "Offer", name: "Business", price: "999", priceCurrency: "INR", description: "Per user per month" },
+        { "@type": "Offer", name: "Starter", price: "0", priceCurrency: "INR", description: "Free for 2 users and 500 contacts" },
+        perUserOffer("Pro", "499"),
+        perUserOffer("Business", "999"),
       ],
     },
   ],

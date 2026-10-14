@@ -60,14 +60,21 @@ export default async function BlogPostPage({
         headline: post.title,
         description: post.description,
         datePublished: post.date,
-        dateModified: post.date,
-        author: { "@type": "Person", name: authorName.trim(), jobTitle: authorRole.join(",").trim() || undefined },
+        dateModified: post.updated,
+        author: {
+          "@type": "Person",
+          name: authorName.trim(),
+          jobTitle: authorRole.join(",").trim() || undefined,
+          worksFor: { "@id": `${SITE}/#organization` },
+        },
         publisher: { "@id": `${SITE}/#organization` },
         mainEntityOfPage: url,
         url,
         image: `${SITE}/opengraph-image`,
         keywords: post.keywords.join(", "),
         inLanguage: "en",
+        isPartOf: { "@id": `${SITE}/#website` },
+        about: { "@id": `${SITE}/#software` },
       },
       ...(post.faqs.length
         ? [

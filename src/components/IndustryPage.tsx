@@ -73,6 +73,15 @@ export function IndustryPage({ content: c }: { content: IndustryPageContent }) {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebPage",
+        "@id": pageUrl,
+        url: pageUrl,
+        name: c.breadcrumb,
+        isPartOf: { "@id": "https://www.blizz.world/#website" },
+        about: { "@id": "https://www.blizz.world/#software" },
+        audience: { "@type": "BusinessAudience", audienceType: c.businessType },
+      },
+      {
         "@type": "FAQPage",
         mainEntity: c.faq.items.map((f) => ({
           "@type": "Question",
