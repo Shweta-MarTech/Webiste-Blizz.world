@@ -14,6 +14,7 @@ import {
   TestTube,
   Users,
 } from "lucide-react";
+import { socialMeta } from "@/lib/seo";
 import { IndustryPage, type IndustryPageContent } from "@/components/IndustryPage";
 
 export const metadata: Metadata = {
@@ -21,12 +22,12 @@ export const metadata: Metadata = {
   description:
     "CRM for pharma, Ayurvedic and wellness teams in India and the GCC. Track enquiries from doctors, chemists and distributors, with follow-up and reorder dates.",
   alternates: { canonical: "/pharma-crm" },
-  openGraph: {
+  ...socialMeta({
     title: "Blizz — CRM for pharma and wellness sales teams",
     description:
       "Every enquiry, sample and reorder followed up on time. Used by Hebe Wellness. Free for 2 users.",
-    url: "/pharma-crm",
-  },
+    path: "/pharma-crm",
+  }),
 };
 
 const content: IndustryPageContent = {

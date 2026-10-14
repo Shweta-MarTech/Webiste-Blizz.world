@@ -3,6 +3,7 @@ import path from "node:path";
 import { marked } from "marked";
 
 // Blog posts are Markdown files in content/blog/<slug>.md with a frontmatter block.
+// Optional seo_title sets a shorter <title> when the headline is longer than ~60 characters.
 // Adding a file publishes a post: it appears on /blog, in the sitemap, and IndexNow
 // notifies Bing after the next deploy.
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
@@ -10,6 +11,7 @@ const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 export type PostMeta = {
   slug: string;
   title: string;
+  seoTitle: string;
   description: string;
   date: string;
   author: string;
@@ -47,6 +49,7 @@ function toMeta(slug: string, data: Record<string, string>, body: string): PostM
   return {
     slug,
     title: data.title,
+    seoTitle: data.seo_title || data.title,
     description: data.description,
     date: data.date,
     author: data.author ?? "Blizz",

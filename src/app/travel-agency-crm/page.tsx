@@ -13,19 +13,20 @@ import {
   Users,
   UserX,
 } from "lucide-react";
+import { socialMeta } from "@/lib/seo";
 import { IndustryPage, type IndustryPageContent } from "@/components/IndustryPage";
 
 export const metadata: Metadata = {
-  title: "Travel Agency CRM for India & GCC | Blizz",
+  title: "Travel Agency CRM Software for India & GCC | Blizz",
   description:
     "A travel agency CRM for India and the GCC, built with a real travel agency. Every trip enquiry in one pipeline, with owners and overdue follow-up alerts.",
   alternates: { canonical: "/travel-agency-crm" },
-  openGraph: {
+  ...socialMeta({
     title: "Blizz — The travel agency CRM built with a real travel agency",
     description:
       "Every trip enquiry in one pipeline, assigned and followed up on time. Free for 2 users.",
-    url: "/travel-agency-crm",
-  },
+    path: "/travel-agency-crm",
+  }),
 };
 
 const content: IndustryPageContent = {

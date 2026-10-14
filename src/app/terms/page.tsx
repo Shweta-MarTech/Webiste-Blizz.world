@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Link from "next/link";
 import { LegalPage, LegalSection as Section } from "@/components/LegalPage";
 
@@ -7,6 +8,12 @@ export const metadata: Metadata = {
   description:
     "The terms that apply when you use the Blizz website and Blizz CRM, including plans, billing, acceptable use and your data.",
   alternates: { canonical: "https://www.blizz.world/terms" },
+  ...socialMeta({
+    title: "Terms of Service — Blizz",
+    description:
+      "The terms that apply when you use the Blizz website and Blizz CRM, including plans, billing, acceptable use and your data.",
+    path: "/terms",
+  }),
 };
 
 // Blizz is run by its founder as an individual until a company is registered.

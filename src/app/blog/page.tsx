@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { socialMeta } from "@/lib/seo";
 import Link from "next/link";
 import { ArrowRight, Clock } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
@@ -10,12 +11,12 @@ export const metadata: Metadata = {
   description:
     "Practical guides on choosing, setting up and using a CRM for small businesses and sales teams in India and the GCC.",
   alternates: { canonical: "/blog" },
-  openGraph: {
+  ...socialMeta({
     title: "The Blizz Blog — CRM guides for small businesses",
     description:
       "Practical guides on choosing, setting up and using a CRM for small businesses and sales teams in India and the GCC.",
-    url: "/blog",
-  },
+    path: "/blog",
+  }),
 };
 
 export default function BlogIndexPage() {

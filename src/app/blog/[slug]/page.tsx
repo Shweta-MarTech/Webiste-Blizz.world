@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, Clock } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { formatDate, getAllPosts, getPost } from "@/lib/blog";
+import { socialMeta } from "@/lib/seo";
 
 const SITE = "https://www.blizz.world";
 
@@ -24,19 +25,17 @@ export async function generateMetadata({
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} | Blizz`,
+    title: `${post.seoTitle} | Blizz`,
     description: post.description,
     keywords: post.keywords,
     authors: [{ name: post.author }],
     alternates: { canonical: `/blog/${post.slug}` },
-    openGraph: {
-      type: "article",
+    ...socialMeta({
       title: post.title,
       description: post.description,
-      url: `/blog/${post.slug}`,
-      publishedTime: post.date,
-      authors: [post.author],
-    },
+      path: `/blog/${post.slug}`,
+      openGraph: { type: "article", publishedTime: post.date, authors: [post.author] },
+    }),
   };
 }
 

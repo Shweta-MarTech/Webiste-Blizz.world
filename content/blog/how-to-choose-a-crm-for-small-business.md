@@ -1,5 +1,6 @@
 ---
 title: "How to Choose a CRM for Your Small Business (One Your Team Will Actually Use)"
+seo_title: "How to Choose a CRM for Your Small Business"
 description: "A practical guide to choosing a CRM for a small business in India or the GCC: what it should do, what to avoid, real costs and a simple checklist."
 slug: how-to-choose-a-crm-for-small-business
 date: 2026-10-06
