@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Check, X, Minus } from "lucide-react";
 
 const rows = [
@@ -13,7 +14,7 @@ const rows = [
     zoho: "₹0",
     hubspot: "₹1,40,000",
   },
-  { feature: "WhatsApp built in", us: true, zoho: true, hubspot: false },
+  { feature: "WhatsApp built in", us: true, zoho: true, hubspot: "paid" },
   { feature: "Setup Time", us: "5 min", zoho: "1-2 weeks", hubspot: "2-4 weeks" },
   { feature: "GST Invoicing", us: true, zoho: "partial", hubspot: false },
   { feature: "India & GCC Business Workflows", us: true, zoho: "partial", hubspot: false },
@@ -99,6 +100,11 @@ export function Comparison() {
           >
             Switch to Blizz — Free
           </a>
+          <p className="mt-4 text-sm">
+            <Link href="/compare" className="text-orange-600 font-medium hover:underline">
+              Read the full comparisons with Zoho, HubSpot and Freshsales
+            </Link>
+          </p>
         </div>
       </div>
     </section>
