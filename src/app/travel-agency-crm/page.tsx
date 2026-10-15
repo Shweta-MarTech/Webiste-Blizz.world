@@ -160,7 +160,7 @@ const content: IndustryPageContent = {
       },
       {
         q: "How much does Blizz cost for a travel agency?",
-        a: "Free for up to 2 users and 500 contacts. The Pro plan is ₹499 per user per month plus GST, so a 10-agent agency pays ₹4,990 a month. There's no setup fee and no annual lock-in.",
+        a: "Free for up to 2 users and 500 contacts. The Pro plan is $7 per user per month plus applicable taxes, so a 10-agent agency pays $70 a month. There's no setup fee and no annual lock-in.",
       },
       {
         q: "Can Blizz make quotations, itineraries and invoices?",

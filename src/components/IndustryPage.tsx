@@ -310,13 +310,13 @@ export function IndustryPage({ content: c }: { content: IndustryPageContent }) {
             <SectionHeading
               eyebrow="Pricing"
               title={c.pricingTitle ?? "What a 10-person team pays in a year"}
-              text="Pro plan, 10 users, billed monthly. Prices exclude GST."
+              text="Pro plan, 10 users, billed monthly, in US dollars. Prices exclude taxes."
             />
             <div className="grid sm:grid-cols-3 gap-4">
               {[
-                { name: "Blizz Pro", price: "₹59,880", note: "No setup fee", featured: true },
-                { name: "Zoho CRM Standard", price: "₹96,000", note: "₹800/user/month, billed yearly", featured: false },
-                { name: "HubSpot Professional", price: "₹10,25,000", note: "+ ₹1,40,000 onboarding", featured: false },
+                { name: "Blizz Pro", price: "$840", note: "No setup fee", featured: true },
+                { name: "Zoho CRM Standard", price: "$1,680", note: "$14/user/month, billed yearly", featured: false },
+                { name: "HubSpot Professional", price: "$10,800", note: "+ $1,500 onboarding", featured: false },
               ].map((p) => (
                 <div
                   key={p.name}
@@ -333,7 +333,7 @@ export function IndustryPage({ content: c }: { content: IndustryPageContent }) {
               ))}
             </div>
             <ul className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-600">
-              {["Free for up to 2 users", "₹499 per user per month on Pro", "Cancel anytime"].map((item) => (
+              {["Free for up to 2 users", "$7 per user per month on Pro", "Cancel anytime"].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <Check size={16} className="text-green-500" />
                   {item}

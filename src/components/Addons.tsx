@@ -11,31 +11,31 @@ const addons = [
     icon: Target,
     title: "LeadIncrease add-on",
     description: "Capture more leads",
-    price: "₹499",
+    price: "$7",
   },
   {
     icon: CheckSquare,
     title: "Projects add-on",
     description: "Deliver projects and reach goals faster",
-    price: "₹399",
+    price: "$6",
   },
   {
     icon: Megaphone,
     title: "Campaigns add-on",
     description: "Send awesome email marketing campaigns",
-    price: "₹299",
+    price: "$4",
   },
   {
     icon: Eye,
     title: "Online Visitors add-on",
     description: "See who's browsing your site",
-    price: "₹599",
+    price: "$8",
   },
   {
     icon: FileText,
     title: "Smart Docs add-on",
     description: "Manage all your documents in one place",
-    price: "₹499",
+    price: "$7",
   },
 ];
 

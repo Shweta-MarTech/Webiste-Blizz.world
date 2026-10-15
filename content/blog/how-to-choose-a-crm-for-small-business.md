@@ -70,7 +70,7 @@ CRM pricing is usually per user per month, and the headline price rarely tells t
 - Add-ons you'll need (WhatsApp, automation, reports, extra contacts)
 - Price jumps when you move up a plan
 
-As an example of how much this varies, here are rough yearly costs for a 10-person team on a mid-tier plan: [Zoho CRM Standard](https://www.zoho.com/en-in/crm/zohocrm-pricing.html) around ₹96,000 (₹800 per user per month, billed yearly), [HubSpot Sales Professional](https://www.hubspot.com/pricing/sales) around ₹10,25,000 plus about ₹1,40,000 in mandatory onboarding (HubSpot charges in US dollars: $90 per seat per month billed yearly, plus $1,500 onboarding), and simpler small-business CRMs from around ₹60,000. We checked both pricing pages in October 2026. Prices change, so always check the current ones, but the gap between options is often 10× or more.
+As an example of how much this varies, here are rough yearly costs for a 10-person team on a mid-tier plan: [Zoho CRM Standard](https://www.zoho.com/crm/zohocrm-pricing.html) $1,680 ($14 per user per month billed yearly, Zoho's US-dollar price; it charges less in India), [HubSpot Sales Professional](https://www.hubspot.com/pricing/sales) $10,800 plus $1,500 in mandatory onboarding ($90 per seat per month billed yearly), and simpler small-business CRMs from around $700. We checked both pricing pages in October 2026. Prices change, so always check the current ones, but the gap between options is often 10× or more.
 
 ### 4. Getting your existing data in
 
@@ -136,7 +136,7 @@ The last question carries the most weight. A CRM your owner loves and your sales
 The best CRM is the one your team uses consistently. For most small businesses, prioritise quick setup, a good fit with how customers contact you (WhatsApp, phone or email), predictable yearly cost and easy data import over long feature lists.
 
 **How much does a CRM cost for a small business?**
-Most small-business CRMs charge per user per month. Yearly costs for a 10-person team range from roughly ₹60,000 to over ₹10 lakh, depending on the vendor, plan and add-ons. Many CRMs offer a free plan for one to three users.
+Most small-business CRMs charge per user per month. Yearly costs for a 10-person team range from roughly $700 to over $10,000, depending on the vendor, plan and add-ons. Many CRMs offer a free plan for one to three users.
 
 **Is a free CRM good enough?**
 A free plan is a good way to start if you have one to three users. Check the limits on contacts, users and features, and what the paid plan will cost once your team grows.

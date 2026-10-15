@@ -118,7 +118,8 @@ export default function TermsPage() {
           <li>
             <strong>Paid plans</strong> (Pro and Business) are charged per user
             per month, at the prices shown on our website when you subscribe.
-            Prices exclude GST, which is added where applicable.
+            Prices are in US dollars and exclude taxes (such as GST in India or
+            VAT in the GCC), which are added where applicable.
           </li>
           <li>
             <strong>Trials:</strong> if you start a free trial of a paid plan,

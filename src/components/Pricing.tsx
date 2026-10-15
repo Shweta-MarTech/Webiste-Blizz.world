@@ -19,7 +19,7 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "₹499",
+    price: "$7",
     period: "/user/month",
     description: "For growing teams that sell on WhatsApp",
     cta: "Start 14-Day Trial",
@@ -36,7 +36,7 @@ const plans = [
   },
   {
     name: "Business",
-    price: "₹999",
+    price: "$14",
     period: "/user/month",
     description: "For agencies that need customization",
     cta: "Contact Sales",
@@ -131,7 +131,7 @@ export function Pricing() {
         </div>
 
         <p className="text-center mt-8 text-sm text-slate-400">
-          All prices in INR. 20% discount on annual billing. No setup fees, ever.
+          All prices in US dollars, for India and the GCC. Taxes extra. 20% discount on annual billing. No setup fees, ever.
         </p>
       </div>
     </section>

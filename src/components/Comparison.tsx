@@ -4,15 +4,15 @@ import { Check, X, Minus } from "lucide-react";
 const rows = [
   {
     feature: "Price (10 users/year)",
-    us: "₹59,880",
-    zoho: "₹96,000",
-    hubspot: "₹10,25,000",
+    us: "$840",
+    zoho: "$1,680",
+    hubspot: "$10,800",
   },
   {
     feature: "Setup / Onboarding Fee",
-    us: "₹0",
-    zoho: "₹0",
-    hubspot: "₹1,40,000",
+    us: "$0",
+    zoho: "$0",
+    hubspot: "$1,500",
   },
   { feature: "WhatsApp built in", us: true, zoho: true, hubspot: "paid" },
   {
@@ -21,7 +21,6 @@ const rows = [
     zoho: "Self-serve + free onboarding",
     hubspot: "Paid onboarding (Pro)",
   },
-  { feature: "Billed in ₹", us: true, zoho: true, hubspot: "US dollars" },
   { feature: "Mobile Responsive", us: true, zoho: true, hubspot: true },
   { feature: "Team Roles & Permissions", us: true, zoho: true, hubspot: "Pro and up" },
   { feature: "Free Tier", us: "2 users", zoho: "3 users", hubspot: "2 users" },
@@ -93,12 +92,13 @@ export function Comparison() {
 
         <div className="mt-8 text-center">
           <p className="text-slate-400 text-sm mb-4">
-            Save over ₹36,000/year compared to Zoho Standard. Over ₹9,60,000/year
+            Save $840/year compared to Zoho CRM Standard. Almost $10,000/year
             compared to HubSpot.
           </p>
           <p className="text-slate-400 text-xs mb-4">
             Competitor plans and features checked on Zoho and HubSpot&apos;s own
-            pricing and help pages, October 2026.
+            pricing and help pages, October 2026. Zoho prices are its US-dollar list
+            prices; Zoho charges less in some countries, including India.
           </p>
           <a
             href="#cta"
