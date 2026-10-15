@@ -45,3 +45,6 @@ next-env.d.ts
 
 # IndexNow page fingerprints (cached by the GitHub Action)
 /.indexnow-cache/
+
+# personal files, keep out of the public repo
+/Claude outputs/
