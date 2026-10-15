@@ -16,6 +16,10 @@ const faqs = [
     a: "Blizz is free for up to 2 users and 500 contacts. The Pro plan is $7 per user per month and Business is $14, plus applicable taxes. A team of 10 on Pro pays $840 a year, compared with $1,680 for Zoho CRM Standard on yearly billing (Zoho's US-dollar price). There is no setup fee and no annual lock-in.",
   },
   {
+    q: "Is there a free trial?",
+    a: "Yes. The Pro plan comes with a 14-day free trial, no credit card required, and you won't be charged unless you choose to continue. You can also stay on the free Starter plan for up to 2 users and 500 contacts with no time limit. There's no long-term contract and you can cancel anytime.",
+  },
+  {
     q: "How is Blizz different from Zoho or HubSpot?",
     a: "Blizz is smaller and simpler on purpose. It comes set up for your industry, puts WhatsApp at the centre of selling, and costs a fraction of HubSpot, which also charges a mandatory onboarding fee. Teams that gave up on a big CRM usually find Blizz quicker to adopt.",
   },
@@ -26,6 +30,10 @@ const faqs = [
   {
     q: "Is my data safe in Blizz?",
     a: "Agents see only their own leads, team leaders see their team and owners see everything. Your data stays in your account, you can export it at any time, and we handle it under India's DPDP Act as described in our Privacy Policy.",
+  },
+  {
+    q: "Does Blizz offer support if I get stuck?",
+    a: "Yes. We set Blizz up with you on a call and import your leads, so you start with a working CRM. After that, every plan gets email support at hello@blizz.world, Pro adds priority support on WhatsApp, and Business adds a dedicated account manager.",
   },
 ];
 
