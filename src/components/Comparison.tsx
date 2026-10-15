@@ -15,11 +15,15 @@ const rows = [
     hubspot: "₹1,40,000",
   },
   { feature: "WhatsApp built in", us: true, zoho: true, hubspot: "paid" },
-  { feature: "Setup Time", us: "5 min", zoho: "1-2 weeks", hubspot: "2-4 weeks" },
-  { feature: "GST Invoicing", us: true, zoho: "partial", hubspot: false },
+  {
+    feature: "Setup",
+    us: "Done with you on a call",
+    zoho: "Self-serve + free onboarding",
+    hubspot: "Paid onboarding (Pro)",
+  },
   { feature: "India & GCC Business Workflows", us: true, zoho: "partial", hubspot: false },
   { feature: "Mobile Responsive", us: true, zoho: true, hubspot: true },
-  { feature: "Team Hierarchy & RBAC", us: true, zoho: true, hubspot: "paid" },
+  { feature: "Team Roles & Permissions", us: true, zoho: true, hubspot: "Pro and up" },
   { feature: "Free Tier", us: "2 users", zoho: "3 users", hubspot: "2 users" },
 ];
 
@@ -91,6 +95,10 @@ export function Comparison() {
           <p className="text-slate-400 text-sm mb-4">
             Save over ₹36,000/year compared to Zoho Standard. Over ₹9,60,000/year
             compared to HubSpot.
+          </p>
+          <p className="text-slate-400 text-xs mb-4">
+            Competitor plans and features checked on Zoho and HubSpot&apos;s own
+            pricing and help pages, October 2026.
           </p>
           <a
             href="#cta"
