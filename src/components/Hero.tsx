@@ -72,7 +72,7 @@ export function Hero() {
             </span>
             <span className="flex items-center gap-1.5">
               <BarChart3 size={16} className="text-orange-500" />
-              Setup in 5 minutes
+              Free setup on a call
             </span>
           </div>
         </div>

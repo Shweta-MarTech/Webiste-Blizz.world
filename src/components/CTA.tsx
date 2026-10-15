@@ -25,7 +25,7 @@ export function CTA() {
           </span>
           <span className="flex items-center gap-1.5">
             <Clock size={14} />
-            Setup in 5 minutes
+            Free setup on a call
           </span>
           <span className="flex items-center gap-1.5">
             <Shield size={14} />

@@ -21,7 +21,7 @@ const rows = [
     zoho: "Self-serve + free onboarding",
     hubspot: "Paid onboarding (Pro)",
   },
-  { feature: "India & GCC Business Workflows", us: true, zoho: "partial", hubspot: false },
+  { feature: "Billed in ₹", us: true, zoho: true, hubspot: "US dollars" },
   { feature: "Mobile Responsive", us: true, zoho: true, hubspot: true },
   { feature: "Team Roles & Permissions", us: true, zoho: true, hubspot: "Pro and up" },
   { feature: "Free Tier", us: "2 users", zoho: "3 users", hubspot: "2 users" },
