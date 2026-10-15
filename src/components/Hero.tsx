@@ -68,7 +68,7 @@ export function Hero() {
             </span>
             <span className="flex items-center gap-1.5">
               <MessageCircle size={16} className="text-green-500" />
-              WhatsApp built-in
+              WhatsApp automation on Pro
             </span>
             <span className="flex items-center gap-1.5">
               <BarChart3 size={16} className="text-orange-500" />

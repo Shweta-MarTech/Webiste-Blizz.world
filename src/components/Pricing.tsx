@@ -13,7 +13,7 @@ const plans = [
       "500 contacts",
       "Lead management & pipeline",
       "Basic dashboard",
-      "WhatsApp chat logging (manual)",
+      "Log WhatsApp enquiries by hand (no WhatsApp API)",
       "Email support",
     ],
   },
@@ -131,7 +131,7 @@ export function Pricing() {
         </div>
 
         <p className="text-center mt-8 text-sm text-slate-400">
-          All prices in US dollars, for India and the GCC. Taxes extra. 20% discount on annual billing. No setup fees, ever.
+          All prices in US dollars, for India and the GCC. Taxes extra. WhatsApp API on Pro and Business only; WhatsApp message charges extra. 20% discount on annual billing. No setup fees, ever.
         </p>
       </div>
     </section>

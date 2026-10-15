@@ -6,13 +6,15 @@ All prices in US dollars (USD), one price list for India and the GCC, per user p
 
 - Price: $0, forever
 - Limits: up to 2 users, 500 contacts
-- Includes: lead management and pipeline, basic dashboard, WhatsApp chat logging (manual), email support
+- Includes: lead management and pipeline, basic dashboard, logging WhatsApp enquiries by hand, email support
+- Not included: WhatsApp Business API, automated WhatsApp follow-ups (Pro and Business only)
 
 ## Pro — $7 per user per month
 
 - Limits: unlimited users and contacts
 - Includes everything in Starter, plus: WhatsApp Business API integration, automated follow-ups and workflows, GST quotations and invoices, team hierarchy and permissions, reports and analytics, priority WhatsApp support
 - Free trial available
+- WhatsApp message charges (set by Meta) are billed on top of the plan price
 - Note: WhatsApp Business API, automations and GST invoicing are rolling out in October 2026
 
 ## Business — $14 per user per month

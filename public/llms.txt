@@ -26,7 +26,7 @@ Blizz is built in India for how small teams in India and the GCC actually sell: 
 
 ## Pricing
 
-- Starter: Free — up to 2 users, 500 contacts
+- Starter: Free — up to 2 users, 500 contacts; WhatsApp enquiries logged by hand (WhatsApp API and automation are on paid plans only)
 - Pro: $7 per user per month — unlimited users and contacts
 - Business: $14 per user per month — custom fields and stages, API access, dedicated account manager
 - No setup fee, no annual lock-in. Full details: https://www.blizz.world/pricing.md

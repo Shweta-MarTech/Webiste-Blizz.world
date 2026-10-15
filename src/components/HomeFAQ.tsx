@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: "Does Blizz work with WhatsApp?",
-    a: "Yes. Blizz is designed around WhatsApp selling: every WhatsApp enquiry becomes a lead with an owner and a follow-up date. Two-way messaging through the official WhatsApp Business API, automated follow-ups and GST invoices are rolling out in October 2026.",
+    a: "Yes. Blizz is designed around WhatsApp selling: every WhatsApp enquiry becomes a lead with an owner and a follow-up date. Two-way messaging through the official WhatsApp Business API and automated follow-ups come with the Pro and Business plans (WhatsApp message charges extra) and are rolling out in October 2026, along with GST invoices. The free plan lets you log WhatsApp enquiries by hand.",
   },
   {
     q: "How much does Blizz cost?",
