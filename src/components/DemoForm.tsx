@@ -7,10 +7,10 @@ import { trackEvent } from "./Analytics";
 
 // Google Apps Script web app URL (see scripts/lead-capture.gs for setup).
 // Each submission adds a row to the Blizz Leads sheet and emails the team.
-const LEADS_ENDPOINT =
+export const LEADS_ENDPOINT =
   "https://script.google.com/macros/s/AKfycbx6dEXMBfXPsOvr7aLcdtDuSB_X_2MuiP7nIze3nNAqfGWBY5Q60X4wm9ezlw40I_y6Kg/exec";
 
-const BUSINESS_TYPES = [
+export const BUSINESS_TYPES = [
   "Travel agency",
   "Real estate",
   "Education consultancy",
@@ -26,7 +26,7 @@ const UTM_FIELDS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm
 type Attribution = Record<string, string>;
 
 // First-touch attribution: remember where the visitor first came from this session
-function readAttribution(): Attribution {
+export function readAttribution(): Attribution {
   try {
     const saved = sessionStorage.getItem(ATTRIBUTION_KEY);
     if (saved) return JSON.parse(saved);

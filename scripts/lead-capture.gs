@@ -1,8 +1,8 @@
 /**
  * Blizz website lead capture — Google Apps Script
  *
- * Receives "Get a Demo" form submissions from blizz.world, adds each one as a
- * row in this Google Sheet, and emails the team.
+ * Receives "Get a Demo" and "Contact sales" form submissions from blizz.world,
+ * adds each one as a row in this Google Sheet, and emails the team.
  *
  * Setup (one time):
  * 1. Create a Google Sheet named "Blizz Leads".
@@ -38,6 +38,12 @@ const COLUMNS = [
   "Form page",
   "Referrer",
   "Status",
+  // Added for the Contact sales form (2026-10-15); empty for demo requests
+  "Form",
+  "Company",
+  "Country",
+  "Team size",
+  "Message",
 ];
 
 function doPost(e) {
@@ -60,15 +66,21 @@ function doPost(e) {
     clean_(p.page),
     clean_(p.referrer),
     "New",
+    clean_(p.form) || "Get a demo",
+    clean_(p.company),
+    clean_(p.country),
+    clean_(p.team_size),
+    clean_(p.message, 1000),
   ];
   sheet.appendRow(row);
 
   try {
     MailApp.sendEmail({
       to: NOTIFY_EMAIL || Session.getEffectiveUser().getEmail(),
-      subject: "New Blizz demo request: " + row[1] + " (" + row[4] + ")",
-      body: COLUMNS.slice(0, 13)
-        .map(function (label, i) { return label + ": " + (row[i] || "-"); })
+      subject: "New Blizz " + (p.form ? "sales enquiry" : "demo request") + ": " + row[1] + " (" + row[4] + ")",
+      body: COLUMNS
+        .map(function (label, i) { return label === "Status" ? null : label + ": " + (row[i] || "-"); })
+        .filter(function (line) { return line; })
         .join("\n") +
         "\n\nWhatsApp them: https://wa.me/" + waNumber_(row[3]) +
         "\nAll leads: " + SpreadsheetApp.getActiveSpreadsheet().getUrl(),
@@ -89,13 +101,16 @@ function getSheet_() {
     sheet.appendRow(COLUMNS);
     sheet.setFrozenRows(1);
     sheet.getRange(1, 1, 1, COLUMNS.length).setFontWeight("bold");
+  } else if (sheet.getLastColumn() < COLUMNS.length) {
+    // Older sheet: add headers for the newer columns
+    sheet.getRange(1, 1, 1, COLUMNS.length).setValues([COLUMNS]).setFontWeight("bold");
   }
   return sheet;
 }
 
 // Prevent formula injection (values starting with = + - @ run as formulas in Sheets)
-function clean_(value) {
-  const s = String(value || "").trim().slice(0, 300);
+function clean_(value, maxLength) {
+  const s = String(value || "").trim().slice(0, maxLength || 300);
   return /^[=+\-@]/.test(s) ? "'" + s : s;
 }
 

@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Compare", href: "/#compare" },
   { label: "Testimonials", href: "/#testimonials" },
   { label: "Blog", href: "/blog" },
+  { label: "Contact Sales", href: "/contact-sales" },
 ];
 
 export function Navbar() {
