@@ -74,8 +74,13 @@ const content: IndustryPageContent = {
   },
   features: {
     title: "Every trip enquiry, owned and followed up",
-    text: "These features are live and running at ReadyMyTrip right now.",
+    text: "These features are live today.",
     items: [
+      {
+        icon: MessageCircle,
+        title: "WhatsApp inside the CRM",
+        text: "Send and receive WhatsApp messages from the lead screen through the official WhatsApp Business API, with every chat saved to the lead and follow-ups sent automatically.",
+      },
       {
         icon: KanbanSquare,
         title: "A pipeline shaped like a travel sale",
@@ -111,7 +116,6 @@ const content: IndustryPageContent = {
   comingSoon: {
     title: "Coming soon for travel agencies",
     items: [
-      { icon: MessageCircle, title: "WhatsApp Business API", text: "Send and receive WhatsApp messages from the lead screen, with every chat saved to the lead." },
       { icon: FileText, title: "Quotations", text: "Build a package quote and share it on WhatsApp." },
       { icon: Map, title: "Itineraries", text: "Day-by-day itineraries linked to the booking." },
       { icon: Receipt, title: "GST invoices", text: "Auto-numbered, GST-compliant invoices from the booking." },
@@ -144,7 +148,7 @@ const content: IndustryPageContent = {
     items: [
       {
         q: "Does Blizz work with WhatsApp?",
-        a: "Blizz is built for agencies whose enquiries arrive on WhatsApp. Today you log each WhatsApp enquiry as a lead with an owner and a follow-up date. Two-way WhatsApp messaging from inside Blizz, through the official WhatsApp Business API, is coming soon, and early customers get it first.",
+        a: "Blizz is built for agencies whose enquiries arrive on WhatsApp. Every WhatsApp enquiry becomes a lead with an owner and a follow-up date, and your agents send and receive WhatsApp messages from inside Blizz through the official WhatsApp Business API, with automated follow-ups on the Pro plan. WhatsApp message charges set by Meta are extra.",
       },
       {
         q: "Can I import my existing leads from Excel?",

@@ -10,9 +10,9 @@ import {
 const features = [
   {
     icon: MessageCircle,
-    title: "WhatsApp-first leads",
+    title: "WhatsApp Integration",
     description:
-      "Every WhatsApp enquiry becomes a lead with an owner and a follow-up date. Two-way WhatsApp messaging from the CRM, with every chat saved to the lead, is coming soon.",
+      "Send and receive WhatsApp messages from the CRM through the official WhatsApp Business API. Every enquiry becomes a lead and every chat is saved to it.",
     highlight: true,
   },
   {
@@ -24,9 +24,9 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Follow-up Reminders",
+    title: "Automated Follow-ups",
     description:
-      "Every lead gets a next follow-up date, and overdue follow-ups are flagged for the agent and the owner.",
+      "Every lead gets a next follow-up date, WhatsApp follow-ups go out automatically, and overdue ones are flagged for the agent and the owner.",
     highlight: false,
   },
   {

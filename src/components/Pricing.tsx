@@ -26,8 +26,8 @@ const plans = [
     featured: true,
     features: [
       "Unlimited users & contacts",
-      "WhatsApp Business API integration (coming soon)",
-      "Automated follow-ups & workflows (coming soon)",
+      "WhatsApp Business API integration",
+      "Automated WhatsApp follow-ups",
       "GST quotations & invoices (coming soon)",
       "Team hierarchy & permissions",
       "Owner dashboard & agent leaderboard",

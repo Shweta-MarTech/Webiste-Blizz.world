@@ -75,8 +75,13 @@ const content: IndustryPageContent = {
   },
   features: {
     title: "Every enquiry, sample and reorder, owned and followed up",
-    text: "These features are live today and used by Hebe Wellness and ReadyMyTrip.",
+    text: "These features are live today.",
     items: [
+      {
+        icon: MessageCircle,
+        title: "WhatsApp inside the CRM",
+        text: "Send and receive WhatsApp messages from the lead screen through the official WhatsApp Business API, with every chat saved to the account and follow-ups sent automatically.",
+      },
       {
         icon: KanbanSquare,
         title: "A pipeline shaped like your sale",
@@ -112,7 +117,6 @@ const content: IndustryPageContent = {
   comingSoon: {
     title: "Coming soon for pharma & wellness teams",
     items: [
-      { icon: MessageCircle, title: "WhatsApp Business API", text: "Send and receive WhatsApp messages from the lead screen, with every chat saved to the account." },
       { icon: BellRing, title: "Automatic reorder reminders", text: "A WhatsApp reminder goes out on its own when a reorder is due." },
       { icon: FileText, title: "Quotations", text: "Price quotes for distributors and retailers, shared on WhatsApp." },
       { icon: Receipt, title: "GST invoices", text: "Auto-numbered, GST-compliant invoices from the order." },
@@ -158,7 +162,7 @@ const content: IndustryPageContent = {
       },
       {
         q: "Does Blizz work with WhatsApp?",
-        a: "Today you log each WhatsApp enquiry as a lead with an owner and a follow-up date, the way Hebe Wellness does. Two-way WhatsApp messaging from inside Blizz, through the official WhatsApp Business API, is coming soon, and early customers get it first.",
+        a: "Every WhatsApp enquiry becomes a lead with an owner and a follow-up date, the way Hebe Wellness works. Your reps can also send and receive WhatsApp messages from inside Blizz through the official WhatsApp Business API, with automated follow-ups on the Pro plan. WhatsApp message charges set by Meta are extra.",
       },
       {
         q: "Can I import our existing contact lists?",

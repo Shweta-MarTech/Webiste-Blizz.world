@@ -97,7 +97,7 @@ const jsonLd = {
       operatingSystem: "Web",
       description:
         "WhatsApp CRM for small businesses in India and the GCC. Capture every lead, never miss a follow-up and track your sales pipeline in one place.",
-      // Built features only; add WhatsApp API, automations and GST invoices when they ship
+      // Built features only; add GST invoices when they ship
       featureList: [
         "Lead management with pipeline stages",
         "Follow-up scheduling with overdue alerts",
@@ -105,6 +105,8 @@ const jsonLd = {
         "Owner dashboard with hot leads and team leaderboard",
         "Teams with role-based access (agent, team leader, admin)",
         "Bulk import of leads from Excel or CSV",
+        "Two-way WhatsApp messaging through the official WhatsApp Business API",
+        "Automated WhatsApp follow-ups",
       ],
       publisher: { "@id": "https://www.blizz.world/#organization" },
       offers: [

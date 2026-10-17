@@ -51,7 +51,7 @@ export const competitors: Competitor[] = [
       { label: "Paid plan most small teams pick", blizz: "Pro: $7/user/month", them: "Standard: $14/user/month billed yearly, $20 billed monthly" },
       { label: "10 users for a year", blizz: "$672 yearly · $840 monthly", them: "$1,680 yearly · $2,400 monthly (Standard)" },
       { label: "Setup fee", blizz: "None", them: "None (Zoho advertises free onboarding)" },
-      { label: "WhatsApp", blizz: "WhatsApp enquiries logged as leads today; two-way WhatsApp Business API coming soon", them: "WhatsApp Business integration in paid editions; conversations you start use Meta-approved templates; messages paid with credits" },
+      { label: "WhatsApp", blizz: "Two-way messaging through the official WhatsApp Business API on Pro, with automated follow-ups; message charges extra", them: "WhatsApp Business integration in paid editions; conversations you start use Meta-approved templates; messages paid with credits" },
       { label: "Setup", blizz: "Done with you on a call; we import your Excel sheet", them: "Self-serve, with free onboarding help from Zoho" },
       { label: "Team access", blizz: "Agent / team leader / owner views built in", them: "Roles and profiles; manager-only reporting hierarchy listed under Enterprise" },
       { label: "Currency", blizz: "One US-dollar price for India and the GCC", them: "Local prices, including INR, AED and SAR" },
@@ -81,7 +81,7 @@ export const competitors: Competitor[] = [
         title: "WhatsApp",
         paragraphs: [
           "Both treat WhatsApp as a sales channel. Zoho connects a WhatsApp Business account to the CRM in its paid editions. Conversations your business starts go out as Meta-approved templates, and messages are paid for with credits.",
-          "In Blizz today, every WhatsApp enquiry becomes a lead with an owner and a follow-up date, and overdue follow-ups are flagged. Two-way messaging through the official WhatsApp Business API is coming soon. If you need two-way WhatsApp inside the CRM this week, Zoho has it now.",
+          "In Blizz, every WhatsApp enquiry becomes a lead with an owner and a follow-up date, your team sends and receives WhatsApp messages from the lead screen through the official WhatsApp Business API, and follow-ups go out automatically.",
         ],
       },
       {
@@ -94,7 +94,7 @@ export const competitors: Competitor[] = [
       {
         title: "Where Zoho is clearly ahead",
         paragraphs: [
-          "Zoho has been building CRM software for years and it shows: native mobile apps, a large integrations marketplace, workflow automation, AI features, and a family of other Zoho apps for accounting, support and email marketing. It also prices in AED and SAR for the GCC. Blizz is a young product with a narrower feature set, and automations and GST invoices are still coming soon.",
+          "Zoho has been building CRM software for years and it shows: native mobile apps, a large integrations marketplace, workflow automation, AI features, and a family of other Zoho apps for accounting, support and email marketing. It also prices in AED and SAR for the GCC. Blizz is a young product with a narrower feature set, and GST invoices are still coming soon.",
         ],
       },
     ],
@@ -148,7 +148,7 @@ export const competitors: Competitor[] = [
       { label: "Plan compared", blizz: "Pro: $7/user/month", them: "Sales Hub Professional: $90/seat/month" },
       { label: "10 users for a year", blizz: "$672 yearly · $840 monthly", them: "$10,800" },
       { label: "Setup fee", blizz: "None", them: "Required onboarding: $1,500" },
-      { label: "WhatsApp", blizz: "WhatsApp enquiries logged as leads today; two-way WhatsApp Business API coming soon", them: "Available with Marketing Hub or Service Hub Professional/Enterprise, not with Sales Hub alone" },
+      { label: "WhatsApp", blizz: "Two-way messaging through the official WhatsApp Business API on Pro, with automated follow-ups; message charges extra", them: "Available with Marketing Hub or Service Hub Professional/Enterprise, not with Sales Hub alone" },
       { label: "Setup", blizz: "Done with you on a call; we import your Excel sheet", them: "Guided onboarding (paid on Professional)" },
       { label: "Integrations and add-ons", blizz: "Few today", them: "Very large app marketplace" },
     ],
@@ -177,7 +177,7 @@ export const competitors: Competitor[] = [
         title: "WhatsApp",
         paragraphs: [
           "HubSpot does support WhatsApp, but only with Marketing Hub or Service Hub on the Professional or Enterprise tier. Sales Hub on its own doesn't include it, so a sales team that wants WhatsApp in HubSpot pays for a second hub.",
-          "Blizz is built for teams whose enquiries arrive on WhatsApp. Today each WhatsApp enquiry becomes a lead with an owner and a follow-up date. Two-way messaging through the official WhatsApp Business API is coming soon.",
+          "Blizz is built for teams whose enquiries arrive on WhatsApp. Each WhatsApp enquiry becomes a lead with an owner and a follow-up date, and two-way messaging through the official WhatsApp Business API is included in Blizz Pro, with automated follow-ups.",
         ],
       },
       {
@@ -243,7 +243,7 @@ export const competitors: Competitor[] = [
       { label: "Free plan", blizz: "2 users, 500 contacts (WhatsApp API on paid plans)", them: "Up to 3 users (no WhatsApp)" },
       { label: "Plan compared", blizz: "Pro: $7/user/month", them: "Growth: $9/user/month billed yearly" },
       { label: "10 users for a year", blizz: "$672 yearly · $840 monthly", them: "$1,080 yearly (Growth)" },
-      { label: "WhatsApp", blizz: "WhatsApp enquiries logged as leads today; two-way WhatsApp Business API coming soon", them: "On Growth and above" },
+      { label: "WhatsApp", blizz: "Two-way messaging through the official WhatsApp Business API on Pro, with automated follow-ups; message charges extra", them: "On Growth and above" },
       { label: "Free trial", blizz: "Free plan; demo with your own data", them: "21 days" },
       { label: "Setup", blizz: "Done with you on a call; we import your Excel sheet", them: "Self-serve" },
       { label: "Built-in phone and email", blizz: "Not yet", them: "Yes" },
@@ -269,7 +269,7 @@ export const competitors: Competitor[] = [
       {
         title: "WhatsApp",
         paragraphs: [
-          "Freshsales includes WhatsApp from the Growth plan upwards; the free plan doesn't. In Blizz today, each WhatsApp enquiry becomes a lead with an owner and a follow-up date, and two-way messaging through the official WhatsApp Business API is coming soon.",
+          "Freshsales includes WhatsApp from the Growth plan upwards; the free plan doesn't. In Blizz, each WhatsApp enquiry becomes a lead with an owner and a follow-up date, and two-way messaging through the official WhatsApp Business API, with automated follow-ups, is included in Pro.",
         ],
       },
       {
