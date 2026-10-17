@@ -10,9 +10,9 @@ import {
 const features = [
   {
     icon: MessageCircle,
-    title: "WhatsApp Integration",
+    title: "WhatsApp-first leads",
     description:
-      "Send and receive WhatsApp messages directly from the CRM. Every conversation logged to the lead timeline automatically.",
+      "Every WhatsApp enquiry becomes a lead with an owner and a follow-up date. Two-way WhatsApp messaging from the CRM, with every chat saved to the lead, is coming soon.",
     highlight: true,
   },
   {
@@ -24,9 +24,9 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Automated Follow-ups",
+    title: "Follow-up Reminders",
     description:
-      "Set it and forget it. Auto-send WhatsApp reminders, email sequences, and task assignments based on lead activity.",
+      "Every lead gets a next follow-up date, and overdue follow-ups are flagged for the agent and the owner.",
     highlight: false,
   },
   {
@@ -40,8 +40,9 @@ const features = [
     icon: FileText,
     title: "GST Invoicing",
     description:
-      "Generate GST-compliant quotations and invoices. Auto-numbered, branded, shareable via WhatsApp in one click.",
+      "GST-compliant quotations and invoices, auto-numbered and shareable on WhatsApp.",
     highlight: false,
+    soon: true,
   },
   {
     icon: Shield,
@@ -59,7 +60,7 @@ export function Features() {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-sm font-medium text-orange-600 mb-2 tracking-widest uppercase">Features</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
-            Everything you need to sell more, built in
+            Everything a small sales team needs
           </h2>
           <p className="mt-4 text-slate-500 text-lg">
             No plugins to install, no consultants to hire. Blizz works out
@@ -89,6 +90,11 @@ export function Features() {
               </div>
               <h3 className={`font-semibold mb-2 ${f.highlight ? "text-white" : "text-slate-900"}`}>
                 {f.title}
+                {"soon" in f && f.soon && (
+                  <span className="ml-2 align-middle text-[10px] font-semibold uppercase tracking-wide px-1.5 py-0.5 rounded bg-orange-100 text-orange-700">
+                    Coming soon
+                  </span>
+                )}
               </h3>
               <p className={`text-sm leading-relaxed ${f.highlight ? "text-orange-100" : "text-slate-500"}`}>
                 {f.description}

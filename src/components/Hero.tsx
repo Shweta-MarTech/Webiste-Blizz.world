@@ -31,7 +31,7 @@ export function Hero() {
 
           <p className="mt-6 text-lg sm:text-xl text-slate-500 max-w-2xl leading-relaxed">
             Blizz is the WhatsApp CRM small businesses in India and the GCC
-            finish setting up fast. Capture every lead, automate WhatsApp follow-ups and track
+            finish setting up fast. Capture every lead, never miss a follow-up and track
             your sales pipeline in one place your team will love using. Built
             first for{" "}
             <Link href="/travel-agency-crm" className="text-orange-600 font-medium hover:underline">
@@ -68,7 +68,7 @@ export function Hero() {
             </span>
             <span className="flex items-center gap-1.5">
               <MessageCircle size={16} className="text-green-500" />
-              WhatsApp automation on Pro
+              WhatsApp API coming soon
             </span>
             <span className="flex items-center gap-1.5">
               <BarChart3 size={16} className="text-orange-500" />

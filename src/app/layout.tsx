@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "WhatsApp CRM for Small Businesses in India & GCC | Blizz",
   description:
-    "Blizz is a WhatsApp CRM for small businesses in India and the GCC. Capture every lead, automate follow-ups and track your pipeline. Free for 2 users.",
+    "Blizz is a WhatsApp CRM for small businesses in India and the GCC. Capture every lead, never miss a follow-up and track your pipeline. Free for 2 users.",
   keywords: [
     "CRM for small business India",
     "CRM for small business UAE",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
     description:
-      "Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
+      "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 2 users.",
     url: "/",
     siteName: "Blizz",
     type: "website",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
     description:
-      "Capture every lead, automate follow-ups and track your sales pipeline in one place. Free for 2 users.",
+      "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 2 users.",
   },
 };
 
@@ -96,7 +96,7 @@ const jsonLd = {
       applicationSubCategory: "CRM",
       operatingSystem: "Web",
       description:
-        "WhatsApp CRM for small businesses in India and the GCC. Capture every lead, automate follow-ups and track your sales pipeline in one place.",
+        "WhatsApp CRM for small businesses in India and the GCC. Capture every lead, never miss a follow-up and track your sales pipeline in one place.",
       // Built features only; add WhatsApp API, automations and GST invoices when they ship
       featureList: [
         "Lead management with pipeline stages",

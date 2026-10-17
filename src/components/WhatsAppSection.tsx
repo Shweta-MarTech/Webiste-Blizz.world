@@ -23,11 +23,11 @@ export function WhatsAppSection() {
             </p>
             <ul className="mt-6 space-y-3">
               {[
-                "Send template messages to leads directly from CRM",
-                "Auto-log every WhatsApp conversation to lead timeline",
-                "Automated follow-up reminders via WhatsApp",
-                "Broadcast updates to segmented lead lists",
-                "Track read receipts and response times",
+                "Every WhatsApp enquiry logged as a lead with an owner and follow-up date",
+                "Coming soon: send WhatsApp messages to leads from the CRM",
+                "Coming soon: every WhatsApp chat saved to the lead automatically",
+                "Coming soon: automated WhatsApp follow-up reminders",
+                "Coming soon: broadcast updates to segmented lead lists",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <div className="mt-0.5 w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
@@ -79,7 +79,7 @@ export function WhatsAppSection() {
             </div>
             <div className="mt-4 flex items-center gap-2 text-xs text-slate-400">
               <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse-glow" />
-              Auto-logged to lead timeline · Follow-up set for tomorrow 10 AM
+              Logged as a lead · Follow-up set for tomorrow 10 AM
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ seo_title: "Best CRM for Travel Agencies in India (2026)"
 description: "Nine CRMs Indian travel agencies shortlist, compared on real yearly cost for 10 users, WhatsApp, itinerary tools and lock-in. Prices checked on each vendor's site, October 2026."
 slug: best-crm-for-travel-agencies-india
 date: 2026-10-15
-updated: 2026-10-15
+updated: 2026-10-17
 author: Shweta Bakshi, Founder, Blizz
 primary_keyword: best CRM for travel agency India
 secondary_keywords: travel agency CRM, travel CRM India, CRM for tour operators, WhatsApp CRM for travel agency, travel CRM software price
@@ -35,7 +35,7 @@ Itinerary builders, supplier management and booking engines matter if you packag
 
 | CRM | Type | 10 users for a year (list price) | WhatsApp | Free plan or trial |
 |---|---|---|---|---|
-| [Blizz](/travel-agency-crm) | Sales CRM, travel setup | $840 monthly · $672 yearly (≈ ₹74,000 / ₹59,000) | Official API on Pro (rolling out Oct 2026); message charges extra | Free for 2 users |
+| [Blizz](/travel-agency-crm) | Sales CRM, travel setup | $840 monthly · $672 yearly (≈ ₹74,000 / ₹59,000) | Official API on Pro (coming soon); message charges extra | Free for 2 users |
 | [Zoho Bigin](https://www.bigin.com/pricing.html) | Simple sales CRM | ₹48,000 yearly · ₹66,000 monthly (Express) | WhatsApp Business integration on Express | Free for 1 user; 15-day trial |
 | [Zoho CRM](https://www.zoho.com/en-in/crm/zohocrm-pricing.html) | Full CRM suite | ₹96,000 yearly · ₹1,56,000 monthly (Standard) | Included on paid plans; Meta message credits | Free for 3 users |
 | [TeleCRM](https://telecrm.in/pricing) | Calling-first CRM | ₹95,880 yearly · ₹1,31,880 quarterly | Official API; one-time setup fee; Chat Sync ₹200/user/month | Demo; no free plan seen |
@@ -54,7 +54,7 @@ Itinerary builders, supplier management and booking engines matter if you packag
 Blizz was built with [ReadyMyTrip](https://readymytrip.com), a travel agency that moved 1,200+ leads out of WhatsApp chats and spreadsheets. Their average reply to a new enquiry went from about two days to about four hours.
 
 - **Good at:** enquiry pipeline with travel stages, follow-up dates with overdue alerts, an owner dashboard (new leads, hot leads, overdue follow-ups, bookings, agent leaderboard), agent / team leader / owner access so agents only see their own leads, and importing your existing Excel sheet. We set it up with you on a call, free.
-- **Not good at (yet):** there is no itinerary builder, supplier management or booking engine, and no native mobile app. Two-way WhatsApp through the official API, automated follow-ups and GST invoices are rolling out in October 2026. Today, WhatsApp enquiries are logged as leads by hand.
+- **Not good at (yet):** there is no itinerary builder, supplier management or booking engine, and no native mobile app. Two-way WhatsApp through the official API, automated follow-ups and GST invoices are coming soon. Today, WhatsApp enquiries are logged as leads by hand.
 - **Price:** free for 2 users; Pro $7 per user per month, 20% less billed yearly. No setup fee, no minimum users, cancel anytime.
 
 ### Zoho Bigin: the cheapest per-user option from a big brand

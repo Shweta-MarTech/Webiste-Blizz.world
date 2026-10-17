@@ -22,7 +22,7 @@ Blizz is built in India for how small teams in India and the GCC actually sell: 
 - Agents, teams and team leaders, with role-based access and data scoping
 - Bulk import from Excel
 - Lost-lead tracking
-- Rolling out October 2026: WhatsApp Business API (two-way messaging), automated follow-ups, GST-compliant quotations and invoices
+- Coming soon: WhatsApp Business API (two-way messaging), automated follow-ups, GST-compliant quotations and invoices
 
 ## Pricing
 
