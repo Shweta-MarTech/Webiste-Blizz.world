@@ -9,8 +9,8 @@ const plans = [
     cta: "Start Free",
     featured: false,
     features: [
-      "Up to 2 users",
-      "500 contacts",
+      "Up to 3 users",
+      "1,000 contacts",
       "Lead management & pipeline",
       "Basic dashboard",
       "Log WhatsApp enquiries by hand (no WhatsApp API)",
@@ -19,8 +19,9 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "$7",
+    price: "$4",
     period: "/user/month",
+    note: "Billed yearly · $5 billed monthly · never more than $39/month for up to 15 users",
     description: "For growing teams that sell on WhatsApp",
     cta: "Start 14-Day Trial",
     featured: true,
@@ -36,8 +37,9 @@ const plans = [
   },
   {
     name: "Business",
-    price: "$14",
+    price: "$8",
     period: "/user/month",
+    note: "Billed yearly · $10 billed monthly · never more than $79/month for up to 15 users",
     description: "For agencies that need customization",
     cta: "Contact Sales",
     featured: false,
@@ -94,6 +96,11 @@ export function Pricing() {
                   {plan.period}
                 </span>
               </div>
+              {"note" in plan && plan.note && (
+                <p className={`mt-1 text-xs ${plan.featured ? "text-orange-100" : "text-slate-400"}`}>
+                  {plan.note}
+                </p>
+              )}
               <p className={`mt-2 text-sm ${plan.featured ? "text-orange-100" : "text-slate-500"}`}>
                 {plan.description}
               </p>
@@ -131,7 +138,7 @@ export function Pricing() {
         </div>
 
         <p className="text-center mt-8 text-sm text-slate-400">
-          All prices in US dollars, for India and the GCC. Taxes extra. WhatsApp API on Pro and Business only; WhatsApp message charges extra. 20% discount on annual billing. No setup fees, ever.
+          All prices in US dollars, for India and the GCC. Taxes extra. WhatsApp API on Pro and Business only; WhatsApp message charges extra. Pro is $4 and Business $8 per user per month billed yearly ($5 and $10 billed monthly). Teams of up to 15 never pay more than $39 (Pro) or $79 (Business) a month billed yearly, or $49 / $99 billed monthly; each user beyond 15 adds the per-user price. No setup fees, ever.
         </p>
       </div>
     </section>

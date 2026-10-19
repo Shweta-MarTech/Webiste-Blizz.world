@@ -29,7 +29,7 @@ export function CTA() {
           </span>
           <span className="flex items-center gap-1.5">
             <Shield size={14} />
-            Free for 2 users, forever
+            Free for 3 users, forever
           </span>
         </div>
       </div>

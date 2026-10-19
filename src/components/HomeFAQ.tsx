@@ -13,11 +13,11 @@ const faqs = [
   },
   {
     q: "How much does Blizz cost?",
-    a: "Blizz is free for up to 2 users and 500 contacts. The Pro plan is $7 per user per month and Business is $14, plus applicable taxes. A team of 10 on Pro pays $840 a year, compared with $1,680 for Zoho CRM Standard on yearly billing (Zoho's US-dollar price). There is no setup fee and no annual lock-in.",
+    a: "Blizz is free for up to 3 users and 1,000 contacts. The Pro plan is $4 per user per month billed yearly ($5 monthly) and Business is $8 ($10 monthly), plus applicable taxes. Teams of up to 15 never pay more than $39 a month on Pro or $79 on Business. A team of 10 on Pro pays $468 a year, compared with $1,680 for Zoho CRM Standard on yearly billing (Zoho's US-dollar price). There is no setup fee and no annual lock-in.",
   },
   {
     q: "Is there a free trial?",
-    a: "Yes. The Pro plan comes with a 14-day free trial, no credit card required, and you won't be charged unless you choose to continue. You can also stay on the free Starter plan for up to 2 users and 500 contacts with no time limit. There's no long-term contract and you can cancel anytime.",
+    a: "Yes. The Pro plan comes with a 14-day free trial, no credit card required, and you won't be charged unless you choose to continue. You can also stay on the free Starter plan for up to 3 users and 1,000 contacts with no time limit. There's no long-term contract and you can cancel anytime.",
   },
   {
     q: "How is Blizz different from Zoho or HubSpot?",

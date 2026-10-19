@@ -70,7 +70,7 @@ CRM pricing is usually per user per month, and the headline price rarely tells t
 - Add-ons you'll need (WhatsApp, automation, reports, extra contacts)
 - Price jumps when you move up a plan
 
-As an example of how much this varies, here are rough yearly costs for a 10-person team on a mid-tier plan: [Zoho CRM Standard](https://www.zoho.com/crm/zohocrm-pricing.html) $1,680 ($14 per user per month billed yearly, Zoho's US-dollar price; it charges less in India), [HubSpot Sales Professional](https://www.hubspot.com/pricing/sales) $10,800 plus $1,500 in mandatory onboarding ($90 per seat per month billed yearly), and simpler small-business CRMs from around $700. We checked both pricing pages in October 2026. Prices change, so always check the current ones, but the gap between options is often 10× or more.
+As an example of how much this varies, here are rough yearly costs for a 10-person team on a mid-tier plan: [Zoho CRM Standard](https://www.zoho.com/crm/zohocrm-pricing.html) $1,680 ($14 per user per month billed yearly, Zoho's US-dollar price; it charges less in India), [HubSpot Sales Professional](https://www.hubspot.com/pricing/sales) $10,800 plus $1,500 in mandatory onboarding ($90 per seat per month billed yearly), and simpler small-business CRMs from around $470. We checked both pricing pages in October 2026. Prices change, so always check the current ones, but the gap between options is often 10× or more.
 
 ### 4. Getting your existing data in
 

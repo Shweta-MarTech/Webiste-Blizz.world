@@ -4,7 +4,7 @@ import { Check, X, Minus } from "lucide-react";
 const rows = [
   {
     feature: "Price (10 users/year)",
-    us: "$840",
+    us: "$468",
     zoho: "$1,680",
     hubspot: "$10,800",
   },
@@ -23,7 +23,7 @@ const rows = [
   },
   { feature: "Mobile Responsive", us: true, zoho: true, hubspot: true },
   { feature: "Team Roles & Permissions", us: true, zoho: true, hubspot: "Pro and up" },
-  { feature: "Free Tier", us: "2 users", zoho: "3 users", hubspot: "2 users" },
+  { feature: "Free Tier", us: "3 users", zoho: "3 users", hubspot: "2 users" },
 ];
 
 function CellValue({ value }: { value: string | boolean }) {
@@ -92,7 +92,7 @@ export function Comparison() {
 
         <div className="mt-8 text-center">
           <p className="text-slate-400 text-sm mb-4">
-            Save $840/year compared to Zoho CRM Standard. Almost $10,000/year
+            Save over $1,200/year compared to Zoho CRM Standard. Over $10,000/year
             compared to HubSpot.
           </p>
           <p className="text-slate-400 text-xs mb-4">

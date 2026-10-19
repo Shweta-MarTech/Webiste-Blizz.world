@@ -111,13 +111,14 @@ export default function TermsPage() {
       <Section id="plans" title="4. Plans, trials and billing">
         <ul>
           <li>
-            <strong>Starter (free):</strong> up to 2 users and 500 contacts, with
+            <strong>Starter (free):</strong> up to 3 users and 1,000 contacts, with
             no time limit. We may change free plan limits with 30 days&apos;
             notice.
           </li>
           <li>
             <strong>Paid plans</strong> (Pro and Business) are charged per user
-            per month, at the prices shown on our website when you subscribe.
+            per month, up to the monthly cap for your plan, at the prices shown
+            on our website when you subscribe.
             Prices are in US dollars and exclude taxes (such as GST in India or
             VAT in the GCC), which are added where applicable.
           </li>

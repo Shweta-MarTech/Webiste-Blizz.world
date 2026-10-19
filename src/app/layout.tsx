@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "WhatsApp CRM for Small Businesses in India & GCC | Blizz",
   description:
-    "Blizz is a WhatsApp CRM for small businesses in India and the GCC. Capture every lead, never miss a follow-up and track your pipeline. Free for 2 users.",
+    "Blizz is a WhatsApp CRM for small businesses in India and the GCC. Capture every lead, never miss a follow-up and track your pipeline. Free for 3 users.",
   keywords: [
     "CRM for small business India",
     "CRM for small business UAE",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
     description:
-      "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 2 users.",
+      "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 3 users.",
     url: "/",
     siteName: "Blizz",
     type: "website",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
     description:
-      "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 2 users.",
+      "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 3 users.",
   },
 };
 
@@ -110,9 +110,9 @@ const jsonLd = {
       ],
       publisher: { "@id": "https://www.blizz.world/#organization" },
       offers: [
-        { "@type": "Offer", name: "Starter", price: "0", priceCurrency: "USD", description: "Free for 2 users and 500 contacts" },
-        perUserOffer("Pro", "7"),
-        perUserOffer("Business", "14"),
+        { "@type": "Offer", name: "Starter", price: "0", priceCurrency: "USD", description: "Free for 3 users and 1,000 contacts" },
+        perUserOffer("Pro", "4"),
+        perUserOffer("Business", "8"),
       ],
     },
   ],

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ...socialMeta({
     title: "Blizz — CRM for pharma and wellness sales teams",
     description:
-      "Every enquiry, sample and reorder followed up on time. Used by Hebe Wellness. Free for 2 users.",
+      "Every enquiry, sample and reorder followed up on time. Used by Hebe Wellness. Free for 3 users.",
     path: "/pharma-crm",
   }),
 };
@@ -41,7 +41,7 @@ const content: IndustryPageContent = {
     titleLead: "The CRM for pharma and wellness teams that",
     titleHighlight: "follows up on every enquiry and reorder",
     text: "Enquiries from doctors, chemists, distributors and customers arrive on WhatsApp, calls and your website, then sit in your reps' phones. Blizz puts each one in a single pipeline with an owner and a next follow-up date, so samples get chased and repeat orders don't slip.",
-    note: "Used by Hebe Wellness, a CBD and hemp wellness brand. Free for 2 users.",
+    note: "Used by Hebe Wellness, a CBD and hemp wellness brand. Free for 3 users.",
   },
   pipeline: {
     title: "Enquiries & orders",
@@ -170,7 +170,7 @@ const content: IndustryPageContent = {
       },
       {
         q: "How much does Blizz cost?",
-        a: "Free for up to 2 users and 500 contacts. The Pro plan is $7 per user per month plus applicable taxes, so a team of 10 pays $70 a month. There's no setup fee and no annual lock-in.",
+        a: "Free for up to 3 users and 1,000 contacts. The Pro plan is $4 per user per month billed yearly ($5 billed monthly) plus applicable taxes, and teams of 10 to 15 never pay more than $39 a month, so a team of 10 pays $39 a month. There's no setup fee and no annual lock-in.",
       },
     ],
   },

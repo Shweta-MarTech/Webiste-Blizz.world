@@ -28,9 +28,9 @@ export type Competitor = {
   faqs: { q: string; a: string }[];
 };
 
-// Blizz Pro: $7/user/month billed monthly; 20% off billed yearly ($5.60)
+// Blizz Pro: $4/user/month billed yearly, $5 billed monthly; capped at $39 / $49 a month for 10–15 users
 const BLIZZ_PRICE_ROWS: PriceRow[] = [
-  { plan: "Blizz Pro", yearly: "$672", monthly: "$840", note: "No setup fee, no lock-in" },
+  { plan: "Blizz Pro", yearly: "$468", monthly: "$588", note: "No setup fee, no lock-in" },
 ];
 
 export const competitors: Competitor[] = [
@@ -42,14 +42,14 @@ export const competitors: Competitor[] = [
     description:
       "Blizz vs Zoho CRM for small teams in India and the GCC: prices for 10 users, WhatsApp, free plans and setup, checked on Zoho's pricing page in October 2026.",
     summary:
-      "Zoho does far more. Blizz costs less than Zoho CRM Standard and is set up with you in an afternoon. Zoho's Bigin is the closer match on price.",
+      "Zoho does far more. Blizz costs less than Zoho CRM Standard and Zoho's simpler Bigin, and is set up with you in an afternoon.",
     tldr:
-      "Zoho CRM is a mature, very configurable CRM that fits growing companies who want one vendor for CRM, accounting and support. Blizz is a smaller, ready-made CRM for teams of 3 to 30 who sell on WhatsApp and want to be running the same day. For 10 users, Blizz Pro costs $672 a year on yearly billing against $1,680 for Zoho CRM Standard. Zoho's simpler CRM, Bigin, costs about the same as Blizz.",
+      "Zoho CRM is a mature, very configurable CRM that fits growing companies who want one vendor for CRM, accounting and support. Blizz is a smaller, ready-made CRM for teams of 3 to 30 who sell on WhatsApp and want to be running the same day. For 10 users, Blizz Pro costs $468 a year on yearly billing against $1,680 for Zoho CRM Standard and $840 for Zoho's simpler CRM, Bigin.",
     rows: [
       { label: "Best for", blizz: "Teams of 3–30 that sell on WhatsApp and phone", them: "Growing companies that want deep customisation and the Zoho suite" },
-      { label: "Free plan", blizz: "2 users, 500 contacts (WhatsApp API on paid plans)", them: "3 users" },
-      { label: "Paid plan most small teams pick", blizz: "Pro: $7/user/month", them: "Standard: $14/user/month billed yearly, $20 billed monthly" },
-      { label: "10 users for a year", blizz: "$672 yearly · $840 monthly", them: "$1,680 yearly · $2,400 monthly (Standard)" },
+      { label: "Free plan", blizz: "3 users, 1,000 contacts (WhatsApp API on paid plans)", them: "3 users" },
+      { label: "Paid plan most small teams pick", blizz: "Pro: $4/user/month billed yearly, $5 monthly", them: "Standard: $14/user/month billed yearly, $20 billed monthly" },
+      { label: "10 users for a year", blizz: "$468 yearly · $588 monthly", them: "$1,680 yearly · $2,400 monthly (Standard)" },
       { label: "Setup fee", blizz: "None", them: "None (Zoho advertises free onboarding)" },
       { label: "WhatsApp", blizz: "Two-way messaging through the official WhatsApp Business API on Pro, with automated follow-ups; message charges extra", them: "WhatsApp Business integration in paid editions; conversations you start use Meta-approved templates; messages paid with credits" },
       { label: "Setup", blizz: "Done with you on a call; we import your Excel sheet", them: "Self-serve, with free onboarding help from Zoho" },
@@ -73,8 +73,8 @@ export const competitors: Competitor[] = [
       {
         title: "Price",
         paragraphs: [
-          "Zoho CRM Standard costs $14 per user per month if you pay for the year upfront and $20 if you pay monthly. For a 10-person team that is $1,680 or $2,400 a year. Blizz Pro is $7 per user per month billed monthly, or 20% less billed yearly: $840 or $672 for the same team. Zoho charges less in some countries, so check the price Zoho shows you.",
-          "If price is your main reason to look past Zoho CRM, look at Zoho Bigin too. Bigin is $7 per user per month billed yearly, the same as Blizz billed monthly. The difference then comes down to fit: Bigin is a general pipeline tool, Blizz comes set up for how WhatsApp-first sales teams work.",
+          "Zoho CRM Standard costs $14 per user per month if you pay for the year upfront and $20 if you pay monthly. For a 10-person team that is $1,680 or $2,400 a year. Blizz Pro is $4 per user per month billed yearly or $5 billed monthly, and teams of 10 to 15 pay a flat $39 or $49 a month: $468 or $588 for the same team. Zoho charges less in some countries, so check the price Zoho shows you.",
+          "If price is your main reason to look past Zoho CRM, you may also be looking at Zoho Bigin. Bigin is $7 per user per month billed yearly, so 10 users pay $840 a year against $468 on Blizz Pro. Beyond price, the difference is fit: Bigin is a general pipeline tool, Blizz comes set up for how WhatsApp-first sales teams work.",
         ],
       },
       {
@@ -115,7 +115,7 @@ export const competitors: Competitor[] = [
     faqs: [
       {
         q: "Is Blizz cheaper than Zoho CRM?",
-        a: "Yes, against Zoho CRM Standard and above. For 10 users, Blizz Pro costs $672 a year billed yearly versus $1,680 for Zoho CRM Standard at Zoho's US-dollar price (checked October 2026, excluding taxes). Zoho Bigin costs about the same as Blizz.",
+        a: "Yes, against Zoho CRM Standard and above. For 10 users, Blizz Pro costs $468 a year billed yearly versus $1,680 for Zoho CRM Standard and $840 for Zoho Bigin at Zoho's US-dollar prices (checked October 2026, excluding taxes).",
       },
       {
         q: "Does Zoho CRM have WhatsApp?",
@@ -127,7 +127,7 @@ export const competitors: Competitor[] = [
       },
       {
         q: "Which has the bigger free plan?",
-        a: "Zoho CRM's free plan allows 3 users; Blizz's free plan allows 2 users and 500 contacts.",
+        a: "Both free plans allow 3 users; Blizz's includes 1,000 contacts.",
       },
     ],
   },
@@ -141,12 +141,12 @@ export const competitors: Competitor[] = [
     summary:
       "HubSpot is a polished all-in-one platform priced in US dollars. For 10 users on Sales Hub Professional, Blizz costs under a tenth as much.",
     tldr:
-      "HubSpot is one of the best-known CRM and marketing platforms in the world, built for companies that run marketing, sales and service together. Blizz is a simple CRM for small WhatsApp-first sales teams in India and the GCC. For 10 users, HubSpot Sales Hub Professional is $10,800 a year plus a required $1,500 onboarding fee. Blizz Pro is $672 to $840, with no setup fee.",
+      "HubSpot is one of the best-known CRM and marketing platforms in the world, built for companies that run marketing, sales and service together. Blizz is a simple CRM for small WhatsApp-first sales teams in India and the GCC. For 10 users, HubSpot Sales Hub Professional is $10,800 a year plus a required $1,500 onboarding fee. Blizz Pro is $468 to $588, with no setup fee.",
     rows: [
       { label: "Best for", blizz: "Teams of 3–30 that sell on WhatsApp and phone", them: "Companies running marketing, sales and service on one platform" },
-      { label: "Free plan", blizz: "2 users, 500 contacts (WhatsApp API on paid plans)", them: "Free tools, up to 2 users" },
-      { label: "Plan compared", blizz: "Pro: $7/user/month", them: "Sales Hub Professional: $90/seat/month" },
-      { label: "10 users for a year", blizz: "$672 yearly · $840 monthly", them: "$10,800" },
+      { label: "Free plan", blizz: "3 users, 1,000 contacts (WhatsApp API on paid plans)", them: "Free tools, up to 2 users" },
+      { label: "Plan compared", blizz: "Pro: $4/user/month billed yearly, $5 monthly", them: "Sales Hub Professional: $90/seat/month" },
+      { label: "10 users for a year", blizz: "$468 yearly · $588 monthly", them: "$10,800" },
       { label: "Setup fee", blizz: "None", them: "Required onboarding: $1,500" },
       { label: "WhatsApp", blizz: "Two-way messaging through the official WhatsApp Business API on Pro, with automated follow-ups; message charges extra", them: "Available with Marketing Hub or Service Hub Professional/Enterprise, not with Sales Hub alone" },
       { label: "Setup", blizz: "Done with you on a call; we import your Excel sheet", them: "Guided onboarding (paid on Professional)" },
@@ -169,7 +169,7 @@ export const competitors: Competitor[] = [
       {
         title: "Price",
         paragraphs: [
-          "HubSpot Sales Hub Professional is $90 per seat per month, and HubSpot requires a one-time $1,500 onboarding package on Professional. For 10 users that is $12,300 in year one. Blizz Pro for the same team is $840 billed monthly or $672 billed yearly, with no setup fee.",
+          "HubSpot Sales Hub Professional is $90 per seat per month, and HubSpot requires a one-time $1,500 onboarding package on Professional. For 10 users that is $12,300 in year one. Blizz Pro for the same team is $588 billed monthly or $468 billed yearly, with no setup fee.",
           "HubSpot also has a free tier and a much cheaper Starter tier. If you only need basic contact and deal tracking, Starter is worth a look.",
         ],
       },
@@ -211,7 +211,7 @@ export const competitors: Competitor[] = [
     faqs: [
       {
         q: "How much does HubSpot cost for 10 users?",
-        a: "HubSpot Sales Hub Professional is $90 per seat per month, plus a required $1,500 onboarding fee: $12,300 in year one for 10 users (checked October 2026). Blizz Pro for 10 users is $672 to $840 a year.",
+        a: "HubSpot Sales Hub Professional is $90 per seat per month, plus a required $1,500 onboarding fee: $12,300 in year one for 10 users (checked October 2026). Blizz Pro for 10 users is $468 to $588 a year.",
       },
       {
         q: "Does HubSpot have WhatsApp?",
@@ -237,12 +237,12 @@ export const competitors: Competitor[] = [
     summary:
       "Freshsales is a capable, AI-assisted sales CRM with built-in phone and email. Blizz costs less and is set up for WhatsApp-first selling.",
     tldr:
-      "Freshsales by Freshworks is a well-reviewed sales CRM with built-in phone, email and AI assistance. Blizz is a simpler CRM for small teams in India and the GCC whose enquiries arrive on WhatsApp. For 10 users, Freshsales Growth costs $1,080 a year billed yearly; Blizz Pro costs $672. Freshsales' free plan covers 3 users but doesn't include WhatsApp.",
+      "Freshsales by Freshworks is a well-reviewed sales CRM with built-in phone, email and AI assistance. Blizz is a simpler CRM for small teams in India and the GCC whose enquiries arrive on WhatsApp. For 10 users, Freshsales Growth costs $1,080 a year billed yearly; Blizz Pro costs $468. Freshsales' free plan covers 3 users but doesn't include WhatsApp.",
     rows: [
       { label: "Best for", blizz: "Teams of 3–30 that sell on WhatsApp and phone", them: "Sales teams that work by phone and email and want AI help" },
-      { label: "Free plan", blizz: "2 users, 500 contacts (WhatsApp API on paid plans)", them: "Up to 3 users (no WhatsApp)" },
-      { label: "Plan compared", blizz: "Pro: $7/user/month", them: "Growth: $9/user/month billed yearly" },
-      { label: "10 users for a year", blizz: "$672 yearly · $840 monthly", them: "$1,080 yearly (Growth)" },
+      { label: "Free plan", blizz: "3 users, 1,000 contacts (WhatsApp API on paid plans)", them: "Up to 3 users (no WhatsApp)" },
+      { label: "Plan compared", blizz: "Pro: $4/user/month billed yearly, $5 monthly", them: "Growth: $9/user/month billed yearly" },
+      { label: "10 users for a year", blizz: "$468 yearly · $588 monthly", them: "$1,080 yearly (Growth)" },
       { label: "WhatsApp", blizz: "Two-way messaging through the official WhatsApp Business API on Pro, with automated follow-ups; message charges extra", them: "On Growth and above" },
       { label: "Free trial", blizz: "Free plan; demo with your own data", them: "21 days" },
       { label: "Setup", blizz: "Done with you on a call; we import your Excel sheet", them: "Self-serve" },
@@ -263,7 +263,7 @@ export const competitors: Competitor[] = [
       {
         title: "Price",
         paragraphs: [
-          "Freshsales Growth is $9 per user per month billed yearly. For 10 users that's $1,080 a year. Blizz Pro costs $672 billed yearly or $840 billed monthly for the same team. Freshsales Pro, which adds sales sequences and deal insights, is $39 per user per month billed yearly.",
+          "Freshsales Growth is $9 per user per month billed yearly. For 10 users that's $1,080 a year. Blizz Pro costs $468 billed yearly or $588 billed monthly for the same team. Freshsales Pro, which adds sales sequences and deal insights, is $39 per user per month billed yearly.",
         ],
       },
       {
@@ -300,7 +300,7 @@ export const competitors: Competitor[] = [
     faqs: [
       {
         q: "Is Blizz cheaper than Freshsales?",
-        a: "Yes. For 10 users, Blizz Pro costs $672 a year billed yearly; Freshsales Growth costs $1,080 billed yearly (prices checked October 2026, excluding taxes).",
+        a: "Yes. For 10 users, Blizz Pro costs $468 a year billed yearly; Freshsales Growth costs $1,080 billed yearly (prices checked October 2026, excluding taxes).",
       },
       {
         q: "Does Freshsales include WhatsApp?",
@@ -308,7 +308,7 @@ export const competitors: Competitor[] = [
       },
       {
         q: "Which has the bigger free plan?",
-        a: "Freshsales' free plan covers up to 3 users; Blizz's covers 2 users and 500 contacts.",
+        a: "Both free plans cover up to 3 users; Blizz's includes 1,000 contacts.",
       },
     ],
   },

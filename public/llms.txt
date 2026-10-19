@@ -1,6 +1,6 @@
 # Blizz
 
-> Blizz is a simple, WhatsApp-first CRM for small businesses in India and the GCC. It helps sales teams of 3–30 people capture every lead and enquiry, assign it to an owner, set follow-up dates and see the whole sales pipeline in one place. Free for 2 users; paid plans from $7 per user per month.
+> Blizz is a simple, WhatsApp-first CRM for small businesses in India and the GCC. It helps sales teams of 3–30 people capture every lead and enquiry, assign it to an owner, set follow-up dates and see the whole sales pipeline in one place. Free for 3 users; paid plans from $4 per user per month.
 
 Blizz is built in India for how small teams in India and the GCC actually sell: enquiries arrive on WhatsApp and phone calls, and teams have agents, team leaders and an owner. It was built first with ReadyMyTrip, a travel agency managing 1,200+ leads, and is also used by Hebe Wellness, a CBD and hemp wellness brand.
 
@@ -28,11 +28,11 @@ Blizz is built in India for how small teams in India and the GCC actually sell: 
 
 ## Pricing
 
-- Starter: Free — up to 2 users, 500 contacts; WhatsApp enquiries logged by hand (WhatsApp API and automation are on paid plans only)
-- Pro: $7 per user per month — unlimited users and contacts
-- Business: $14 per user per month — custom fields and stages, API access, dedicated account manager
+- Starter: Free — up to 3 users, 1,000 contacts; WhatsApp enquiries logged by hand (WhatsApp API and automation are on paid plans only)
+- Pro: $4 per user per month billed yearly ($5 monthly), never more than $39 a month for teams of up to 15 ($49 monthly) — unlimited users and contacts
+- Business: $8 per user per month billed yearly ($10 monthly), never more than $79 a month for teams of up to 15 ($99 monthly) — custom fields and stages, API access, dedicated account manager
 - No setup fee, no annual lock-in. Full details: https://www.blizz.world/pricing.md
-- Example: 10 users on Pro = $840 per year (Zoho CRM Standard $1,680 ($14/user/month billed yearly, Zoho's US-dollar price); HubSpot Sales Hub Professional $10,800 ($90/seat/month billed yearly) + $1,500 mandatory onboarding)
+- Example: 10 users on Pro = $468 per year billed yearly (Zoho CRM Standard $1,680 ($14/user/month billed yearly, Zoho's US-dollar price); HubSpot Sales Hub Professional $10,800 ($90/seat/month billed yearly) + $1,500 mandatory onboarding)
 
 ## Pages
 

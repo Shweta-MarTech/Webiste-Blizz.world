@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ...socialMeta({
     title: "Blizz — The travel agency CRM built with a real travel agency",
     description:
-      "Every trip enquiry in one pipeline, assigned and followed up on time. Free for 2 users.",
+      "Every trip enquiry in one pipeline, assigned and followed up on time. Free for 3 users.",
     path: "/travel-agency-crm",
   }),
 };
@@ -40,7 +40,7 @@ const content: IndustryPageContent = {
     titleLead: "The travel agency CRM that makes sure",
     titleHighlight: "every enquiry gets a follow-up",
     text: "Trip enquiries arrive on WhatsApp and calls, then sit in your agents' personal chats. Blizz puts every enquiry in one pipeline, gives it an owner and a follow-up date, and flags it the moment a follow-up is missed.",
-    note: "Built with ReadyMyTrip, a travel agency managing 1,200+ leads. Free for 2 users.",
+    note: "Built with ReadyMyTrip, a travel agency managing 1,200+ leads. Free for 3 users.",
   },
   pipeline: {
     title: "Trip enquiries",
@@ -164,7 +164,7 @@ const content: IndustryPageContent = {
       },
       {
         q: "How much does Blizz cost for a travel agency?",
-        a: "Free for up to 2 users and 500 contacts. The Pro plan is $7 per user per month plus applicable taxes, so a 10-agent agency pays $70 a month. There's no setup fee and no annual lock-in.",
+        a: "Free for up to 3 users and 1,000 contacts. The Pro plan is $4 per user per month billed yearly ($5 billed monthly) plus applicable taxes, and teams of 10 to 15 never pay more than $39 a month, so a 10-agent agency pays $39 a month. There's no setup fee and no annual lock-in.",
       },
       {
         q: "Can Blizz make quotations, itineraries and invoices?",

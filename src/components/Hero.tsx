@@ -64,7 +64,7 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap gap-6 text-sm text-slate-400">
             <span className="flex items-center gap-1.5">
               <Users size={16} className="text-orange-500" />
-              Free for 2 users
+              Free for 3 users
             </span>
             <span className="flex items-center gap-1.5">
               <MessageCircle size={16} className="text-green-500" />

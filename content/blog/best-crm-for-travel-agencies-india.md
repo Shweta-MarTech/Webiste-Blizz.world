@@ -18,7 +18,7 @@ secondary_keywords: travel agency CRM, travel CRM India, CRM for tour operators,
 
 - Decide first whether you need **travel operations software** (itineraries, costing, suppliers, vouchers) or a **sales CRM** (enquiries, follow-ups, team pipeline). Most agencies under 20 people need the second.
 - The price on the pricing page is rarely what you pay. Check **WhatsApp add-ons, setup fees, minimum users and billing terms** before you compare.
-- For 10 users, yearly costs in this list range from about ₹48,000 to over ₹1.5 lakh, before WhatsApp message charges.
+- For 10 users, yearly costs in this list range from about ₹41,000 to over ₹1.5 lakh, before WhatsApp message charges.
 - Only one tool here (LeadSquared) documents lead capture from travel portals such as MakeMyTrip and Goibibo. If portal leads are a big share of your business, ask every vendor to show you this on a demo.
 
 ## What a travel agency actually needs from a CRM
@@ -35,7 +35,7 @@ Itinerary builders, supplier management and booking engines matter if you packag
 
 | CRM | Type | 10 users for a year (list price) | WhatsApp | Free plan or trial |
 |---|---|---|---|---|
-| [Blizz](/travel-agency-crm) | Sales CRM, travel setup | $840 monthly · $672 yearly (≈ ₹74,000 / ₹59,000) | Official API on Pro, with automated follow-ups; message charges extra | Free for 2 users |
+| [Blizz](/travel-agency-crm) | Sales CRM, travel setup | $588 monthly · $468 yearly (≈ ₹52,000 / ₹41,000) | Official API on Pro, with automated follow-ups; message charges extra | Free for 3 users |
 | [Zoho Bigin](https://www.bigin.com/pricing.html) | Simple sales CRM | ₹48,000 yearly · ₹66,000 monthly (Express) | WhatsApp Business integration on Express | Free for 1 user; 15-day trial |
 | [Zoho CRM](https://www.zoho.com/en-in/crm/zohocrm-pricing.html) | Full CRM suite | ₹96,000 yearly · ₹1,56,000 monthly (Standard) | Included on paid plans; Meta message credits | Free for 3 users |
 | [TeleCRM](https://telecrm.in/pricing) | Calling-first CRM | ₹95,880 yearly · ₹1,31,880 quarterly | Official API; one-time setup fee; Chat Sync ₹200/user/month | Demo; no free plan seen |
@@ -55,7 +55,7 @@ Blizz was built with [ReadyMyTrip](https://readymytrip.com), a travel agency tha
 
 - **Good at:** enquiry pipeline with travel stages, follow-up dates with overdue alerts, an owner dashboard (new leads, hot leads, overdue follow-ups, bookings, agent leaderboard), agent / team leader / owner access so agents only see their own leads, and importing your existing Excel sheet. We set it up with you on a call, free.
 - **Not good at (yet):** there is no itinerary builder, supplier management or booking engine, and no native mobile app. GST invoices are coming soon.
-- **Price:** free for 2 users; Pro $7 per user per month, 20% less billed yearly. No setup fee, no minimum users, cancel anytime.
+- **Price:** free for 3 users; Pro $4 per user per month billed yearly ($5 monthly), and never more than $39 a month for teams of up to 15. No setup fee, no minimum users, cancel anytime.
 
 ### Zoho Bigin: the cheapest per-user option from a big brand
 
@@ -127,7 +127,7 @@ LeadSquared's travel CRM is the only one here that documents lead capture from M
 For a team of 3 to 20 that sells on WhatsApp and phone, choose a simple sales CRM with a travel pipeline, follow-up reminders and WhatsApp included or cheap to add. Blizz, Zoho Bigin, TeleCRM and Vedain all fit that description in different ways; compare them on the total yearly cost for your team and on how quickly your agents start using it.
 
 **How much does a travel CRM cost in India?**
-For 10 users, list prices range from about ₹48,000 a year (Zoho Bigin Express, billed yearly) to over ₹1.5 lakh (Kylas Elevate or LeadSquared), excluding GST and WhatsApp message charges. Travel operations software such as Sembark quotes on request and charges a setup fee.
+For 10 users, list prices range from about ₹41,000 a year (Blizz Pro, billed yearly) to over ₹1.5 lakh (Kylas Elevate or LeadSquared), excluding GST and WhatsApp message charges. Travel operations software such as Sembark quotes on request and charges a setup fee.
 
 **Do I need a CRM with an itinerary builder?**
 Only if you design and cost your own tours. Retail agencies that resell packages usually need fast follow-up and a clear pipeline more than an itinerary builder.
