@@ -17,12 +17,12 @@ import { socialMeta } from "@/lib/seo";
 import { IndustryPage, type IndustryPageContent } from "@/components/IndustryPage";
 
 export const metadata: Metadata = {
-  title: "Travel Agency CRM Software for India & GCC | Blizz",
+  title: "Travel Agency CRM Software for India & GCC | Blizz CRM",
   description:
     "A travel agency CRM for India and the GCC, built with a real travel agency. Every trip enquiry in one pipeline, with owners and overdue follow-up alerts.",
   alternates: { canonical: "/travel-agency-crm" },
   ...socialMeta({
-    title: "Blizz — The travel agency CRM built with a real travel agency",
+    title: "Blizz CRM — The travel agency CRM built with a real travel agency",
     description:
       "Every trip enquiry in one pipeline, assigned and followed up on time. Free for 3 users.",
     path: "/travel-agency-crm",

@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.blizz.world"),
   alternates: { canonical: "/" },
-  title: "WhatsApp CRM for Small Businesses in India & GCC | Blizz",
+  title: "WhatsApp CRM for Small Businesses in India & GCC | Blizz CRM",
   description:
     "Blizz is a WhatsApp CRM for small businesses in India and the GCC. Capture every lead, never miss a follow-up and track your pipeline. Free for 3 users.",
   keywords: [
@@ -29,19 +29,20 @@ export const metadata: Metadata = {
     "real estate CRM India",
     "lead management software",
     "Blizz",
+    "Blizz CRM",
   ],
   openGraph: {
-    title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
+    title: "Blizz CRM — WhatsApp CRM for Small Businesses in India & GCC",
     description:
       "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 3 users.",
     url: "/",
-    siteName: "Blizz",
+    siteName: "Blizz CRM",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blizz — WhatsApp CRM for Small Businesses in India & GCC",
+    title: "Blizz CRM — WhatsApp CRM for Small Businesses in India & GCC",
     description:
       "Capture every lead, never miss a follow-up and track your sales pipeline in one place. Free for 3 users.",
   },
@@ -71,8 +72,12 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": "https://www.blizz.world/#organization",
-      name: "Blizz",
+      // "Blizz CRM" disambiguates from other "Blizz" entities in search and AI answers
+      name: "Blizz CRM",
+      alternateName: ["Blizz", "blizz.world"],
       url: "https://www.blizz.world",
+      description:
+        "Blizz CRM (blizz.world) is a WhatsApp-native CRM for small businesses in India and the GCC, built first with a travel agency.",
       logo: "https://www.blizz.world/logo.png",
       email: "hello@blizz.world",
       founder: { "@type": "Person", name: "Shweta Bakshi", jobTitle: "Founder" },
@@ -82,7 +87,9 @@ const jsonLd = {
     {
       "@type": "WebSite",
       "@id": "https://www.blizz.world/#website",
-      name: "Blizz",
+      // Google reads WebSite name/alternateName for the site name shown in search results
+      name: "Blizz CRM",
+      alternateName: ["Blizz", "blizz.world"],
       url: "https://www.blizz.world",
       inLanguage: "en-IN",
       publisher: { "@id": "https://www.blizz.world/#organization" },

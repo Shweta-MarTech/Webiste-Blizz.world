@@ -9,7 +9,7 @@ const description =
   "Talk to the Blizz team about pricing, moving from Excel or another CRM, and setting up WhatsApp-first selling for your team in India or the GCC.";
 
 export const metadata: Metadata = {
-  title: "Contact Sales | Blizz",
+  title: "Contact Sales | Blizz CRM",
   description,
   alternates: { canonical: "/contact-sales" },
   ...socialMeta({ title: "Contact the Blizz sales team", description, path: "/contact-sales" }),

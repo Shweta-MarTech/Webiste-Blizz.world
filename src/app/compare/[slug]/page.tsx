@@ -26,7 +26,7 @@ export async function generateMetadata({
   const c = getCompetitor(slug);
   if (!c) return {};
   return {
-    title: `${c.seoTitle} | Blizz`,
+    title: `${c.seoTitle} | Blizz CRM`,
     description: c.description,
     alternates: { canonical: `/compare/${c.slug}` },
     ...socialMeta({ title: `Blizz vs ${c.name}`, description: c.description, path: `/compare/${c.slug}` }),

@@ -4,12 +4,12 @@ import { LegalPage, LegalSection as Section } from "@/components/LegalPage";
 import { CookieSettingsButton } from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Blizz",
+  title: "Privacy Policy | Blizz CRM",
   description:
     "How Blizz collects, uses and protects your personal data, in line with India's Digital Personal Data Protection Act, 2023.",
   alternates: { canonical: "https://www.blizz.world/privacy" },
   ...socialMeta({
-    title: "Privacy Policy — Blizz",
+    title: "Privacy Policy | Blizz CRM",
     description:
       "How Blizz collects, uses and protects your personal data, in line with India's Digital Personal Data Protection Act, 2023.",
     path: "/privacy",

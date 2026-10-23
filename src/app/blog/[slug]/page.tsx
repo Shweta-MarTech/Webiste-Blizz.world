@@ -25,7 +25,7 @@ export async function generateMetadata({
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.seoTitle} | Blizz`,
+    title: `${post.seoTitle} | Blizz CRM`,
     description: post.description,
     keywords: post.keywords,
     authors: [{ name: post.author }],

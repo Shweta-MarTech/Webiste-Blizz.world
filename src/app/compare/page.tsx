@@ -10,7 +10,7 @@ const description =
   "Honest comparisons of Blizz with Zoho CRM, HubSpot and Freshsales for small teams in India and the GCC: prices for 10 users, WhatsApp and setup.";
 
 export const metadata: Metadata = {
-  title: "Compare Blizz with Zoho, HubSpot & Freshsales | Blizz",
+  title: "Compare Blizz with Zoho, HubSpot & Freshsales | Blizz CRM",
   description,
   alternates: { canonical: "/compare" },
   ...socialMeta({ title: "Compare Blizz with other CRMs", description, path: "/compare" }),

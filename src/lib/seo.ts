@@ -7,7 +7,7 @@ const shareImage = {
   url: "/opengraph-image",
   width: 1200,
   height: 630,
-  alt: "Blizz — WhatsApp-native CRM for small businesses",
+  alt: "Blizz CRM — WhatsApp-native CRM for small businesses",
 };
 
 type SocialInput = {
@@ -24,7 +24,7 @@ export function socialMeta({ title, description, path, openGraph }: SocialInput)
       title,
       description,
       url: path,
-      siteName: "Blizz",
+      siteName: "Blizz CRM",
       type: "website",
       locale: "en_IN",
       images: [shareImage],

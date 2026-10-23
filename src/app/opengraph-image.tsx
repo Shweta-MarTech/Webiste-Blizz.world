@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 // Preview card shown when blizz.world is shared on WhatsApp, LinkedIn, X, etc.
-export const alt = "Blizz — WhatsApp-native CRM for small businesses";
+export const alt = "Blizz CRM — WhatsApp-native CRM for small businesses";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -37,7 +37,7 @@ export default function OpengraphImage() {
           >
             B
           </div>
-          <div style={{ fontSize: 48, fontWeight: 700, color: "#0f172a" }}>Blizz</div>
+          <div style={{ fontSize: 48, fontWeight: 700, color: "#0f172a" }}>Blizz CRM</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>

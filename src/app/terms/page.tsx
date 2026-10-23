@@ -4,12 +4,12 @@ import Link from "next/link";
 import { LegalPage, LegalSection as Section } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Blizz",
+  title: "Terms of Service | Blizz CRM",
   description:
     "The terms that apply when you use the Blizz website and Blizz CRM, including plans, billing, acceptable use and your data.",
   alternates: { canonical: "https://www.blizz.world/terms" },
   ...socialMeta({
-    title: "Terms of Service — Blizz",
+    title: "Terms of Service | Blizz CRM",
     description:
       "The terms that apply when you use the Blizz website and Blizz CRM, including plans, billing, acceptable use and your data.",
     path: "/terms",
