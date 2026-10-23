@@ -5,7 +5,7 @@ description: "A practical guide to choosing a CRM for a small business in India 
 slug: how-to-choose-a-crm-for-small-business
 date: 2026-10-06
 updated: 2026-10-14
-author: Shweta Bakshi, Founder, Blizz
+author: Shweta Bakshi, Founder, Blizz CRM
 primary_keyword: CRM for small business
 secondary_keywords: best CRM for small business, small business CRM India, CRM for small business UAE, simple CRM
 ---

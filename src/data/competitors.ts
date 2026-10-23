@@ -135,7 +135,7 @@ export const competitors: Competitor[] = [
     slug: "blizz-vs-hubspot",
     name: "HubSpot",
     short: "HubSpot",
-    seoTitle: "Blizz vs HubSpot: Price & WhatsApp for Small Teams",
+    seoTitle: "Blizz vs HubSpot: Price & WhatsApp Compared",
     description:
       "Blizz vs HubSpot Sales Hub for small teams in India and the GCC: what 10 users cost, the $1,500 onboarding fee, and where WhatsApp is included. Checked October 2026.",
     summary:

@@ -13,16 +13,17 @@ All prices in US dollars (USD), one price list for India and the GCC, per user p
 
 - Price cap: teams of up to 15 users never pay more than $39 a month billed yearly ($49 billed monthly). Each user beyond 15 adds $4 ($5 monthly).
 - Limits: unlimited users and contacts
-- Includes everything in Starter, plus: WhatsApp Business API integration, automated follow-ups and workflows, GST quotations and invoices, team hierarchy and permissions, reports and analytics, priority WhatsApp support
-- Free trial available
+- Includes everything in Starter, plus: WhatsApp Business API integration, automated WhatsApp follow-ups, team hierarchy and permissions, owner dashboard and agent leaderboard, WhatsApp support
+- Coming soon (not available yet): GST quotations and invoices, custom reports
+- 14-day Pro trial, no card needed
 - WhatsApp message charges (set by Meta) are billed on top of the plan price
-- Note: GST quotations and invoicing are coming soon
 
 ## Business — $8 per user per month billed yearly ($10 billed monthly)
 
 - Price cap: teams of up to 15 users never pay more than $79 a month billed yearly ($99 billed monthly). Each user beyond 15 adds $8 ($10 monthly).
 - Limits: unlimited users and contacts
-- Includes everything in Pro, plus: visual automation builder, custom fields and pipeline stages, API access, industry pack customisation, dedicated account manager, data migration assistance
+- Includes everything in Pro, plus: custom fields and pipeline stages, dedicated account manager, data migration assistance
+- Coming soon (not available yet): visual automation builder, API access, industry pack customisation
 
 ## Example costs (Pro plan)
 

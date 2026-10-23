@@ -30,7 +30,7 @@ Blizz is built in India for how small teams in India and the GCC actually sell: 
 
 - Starter: Free — up to 3 users, 1,000 contacts; WhatsApp enquiries logged by hand (WhatsApp API and automation are on paid plans only)
 - Pro: $4 per user per month billed yearly ($5 monthly), never more than $39 a month for teams of up to 15 ($49 monthly) — unlimited users and contacts
-- Business: $8 per user per month billed yearly ($10 monthly), never more than $79 a month for teams of up to 15 ($99 monthly) — custom fields and stages, API access, dedicated account manager
+- Business: $8 per user per month billed yearly ($10 monthly), never more than $79 a month for teams of up to 15 ($99 monthly) — custom fields and stages, dedicated account manager (API access is coming soon)
 - No setup fee, no annual lock-in. Full details: https://www.blizz.world/pricing.md
 - Example: 10 users on Pro = $468 per year billed yearly (Zoho CRM Standard $1,680 ($14/user/month billed yearly, Zoho's US-dollar price); HubSpot Sales Hub Professional $10,800 ($90/seat/month billed yearly) + $1,500 mandatory onboarding)
 

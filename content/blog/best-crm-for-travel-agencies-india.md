@@ -5,7 +5,7 @@ description: "Nine CRMs Indian travel agencies shortlist, compared on real yearl
 slug: best-crm-for-travel-agencies-india
 date: 2026-10-15
 updated: 2026-10-17
-author: Shweta Bakshi, Founder, Blizz
+author: Shweta Bakshi, Founder, Blizz CRM
 primary_keyword: best CRM for travel agency India
 secondary_keywords: travel agency CRM, travel CRM India, CRM for tour operators, WhatsApp CRM for travel agency, travel CRM software price
 ---

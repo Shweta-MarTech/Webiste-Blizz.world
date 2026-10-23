@@ -1,9 +1,10 @@
 ---
 title: "How to Set Up a CRM for Your Small Business in One Afternoon"
+seo_title: "How to Set Up a CRM for Small Business (4 Hours)"
 description: "A step-by-step plan to set up a CRM for a small business in about four hours: pipeline stages, importing your spreadsheet, team access and follow-ups."
 slug: how-to-set-up-a-crm-for-small-business
 date: 2026-10-06
-author: Shweta Bakshi, Founder, Blizz
+author: Shweta Bakshi, Founder, Blizz CRM
 primary_keyword: how to set up a CRM for small business
 secondary_keywords: easy CRM setup, CRM setup checklist, CRM implementation small business, simple CRM
 ---

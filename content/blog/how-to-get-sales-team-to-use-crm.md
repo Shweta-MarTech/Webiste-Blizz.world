@@ -1,9 +1,10 @@
 ---
 title: "How to Get Your Sales Team to Actually Use the CRM"
+seo_title: "How to Get Your Sales Team to Use the CRM"
 description: "Why salespeople avoid CRMs and 9 practical ways to fix it, plus a 30-day rollout plan small sales teams in India and the GCC can follow."
 slug: how-to-get-sales-team-to-use-crm
 date: 2026-10-06
-author: Shweta Bakshi, Founder, Blizz
+author: Shweta Bakshi, Founder, Blizz CRM
 primary_keyword: CRM adoption sales team
 secondary_keywords: get sales team to use CRM, CRM easy for sales team, CRM rollout plan, CRM training sales team
 ---

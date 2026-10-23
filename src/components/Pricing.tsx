@@ -32,7 +32,7 @@ const plans = [
       "GST quotations & invoices (coming soon)",
       "Team hierarchy & permissions",
       "Owner dashboard & agent leaderboard",
-      "Priority WhatsApp support",
+      "WhatsApp support",
     ],
   },
   {
