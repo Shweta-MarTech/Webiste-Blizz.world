@@ -9,7 +9,7 @@ import { formatDate, getAllPosts } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "CRM Blog for Small Businesses in India & GCC | Blizz CRM",
   description:
-    "Practical guides on choosing, setting up and using a CRM for small businesses and sales teams in India and the GCC.",
+    "Practical guides on choosing, setting up and using a CRM for small businesses and sales teams in India and the GCC, with honest price comparisons.",
   alternates: { canonical: "/blog" },
   ...socialMeta({
     title: "The Blizz Blog — CRM guides for small businesses",

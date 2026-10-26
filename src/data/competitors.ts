@@ -38,7 +38,7 @@ export const competitors: Competitor[] = [
     slug: "blizz-vs-zoho",
     name: "Zoho CRM",
     short: "Zoho",
-    seoTitle: "Blizz vs Zoho CRM: Price, WhatsApp & Setup (2026)",
+    seoTitle: "Blizz vs Zoho CRM: Price, WhatsApp & Setup",
     description:
       "Blizz vs Zoho CRM for small teams in India and the GCC: prices for 10 users, WhatsApp, free plans and setup, checked on Zoho's pricing page in October 2026.",
     summary:
@@ -233,7 +233,7 @@ export const competitors: Competitor[] = [
     short: "Freshsales",
     seoTitle: "Blizz vs Freshsales: Price, WhatsApp & Free Plan",
     description:
-      "Blizz vs Freshsales (Freshworks CRM) for small teams in India and the GCC: 10-user pricing, WhatsApp on each plan and free plans. Checked on Freshworks' pricing page, October 2026.",
+      "Blizz vs Freshsales (Freshworks CRM) for small teams in India and the GCC: 10-user pricing, WhatsApp on each plan and free plans. Checked October 2026.",
     summary:
       "Freshsales is a capable, AI-assisted sales CRM with built-in phone and email. Blizz costs less and is set up for WhatsApp-first selling.",
     tldr:

@@ -18,7 +18,7 @@ import { socialMeta } from "@/lib/seo";
 import { IndustryPage, type IndustryPageContent } from "@/components/IndustryPage";
 
 export const metadata: Metadata = {
-  title: "CRM for Pharma & Wellness Companies in India & GCC | Blizz CRM",
+  title: "Pharma & Wellness CRM for India and the GCC | Blizz CRM",
   description:
     "CRM for pharma, Ayurvedic and wellness teams in India and the GCC. Track enquiries from doctors, chemists and distributors, with follow-up and reorder dates.",
   alternates: { canonical: "/pharma-crm" },
